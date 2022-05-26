@@ -1,0 +1,150 @@
+
+* CHARACTERS
+** PLOT CHARACTERS
+   + The Police Officer
+   + The Police Officer (Undercover)
+   + Gent in the Sunglasses
+   + The Dark Sorcerer
+   + Investor
+   + Devil
+** ENDGAME CHARACTERS
+   + The Godfather
+   + President
+   + Dad
+** MISCELLANEOUS CHARACTERS
+   + The Professor
+   + Fairy Godmother
+   + Birthday Kid
+   + Brother & Sister
+   + Maiden
+   + Farmer
+   + Old Maid
+   + Baker
+   + Baker (Muffin Variant)
+* ITEMS
+** STARTING
+   + Nail (Endgame: Accomplished Nothing, kinda)
+** CRIME PATH
+   + Oregano
+   + Penny
+   + Dollar Bill
+   + Briefcase of Money
+   + Truck full of Money
+   + Airplane Hangar full of Money
+   + Planet Earth (Endgame: Tycoon)
+   + Handcuffs (Endgame: Hard Time)
+   + Handgun
+   + Sunglasses (Endgame: You Made It)
+** EDUCATION PATH
+   + Math Textbook
+   + History Textbook
+   + Science Textbook
+   + English Textbook
+** SORCERER PATH
+   + Book of Dark Arts
+   + Magic Wand
+   + Fairy Wand
+   + Evil Cloak
+   + (Duel) (Endgame: Master of the Dark Arts)
+** DEVIL PATH
+   + Human Soul
+   + Throne of Satan (Endgame: Satanist)
+** PLAYING CARDS
+   + Queen of Hearts
+   + King of Hearts
+   + Jack of Hearts
+   + Ace of Hearts
+   + Ten of Hearts
+** MISCELLANEOUS
+   + Blind Mouse
+   + Letter 'B'
+   + Letter 'I'
+   + Letter 'N'
+   + Letter 'G'
+   + Letter 'O'
+   + Tiger (caught by his toe)
+   + Horseshoe
+   + Horse
+   + Grandfather Clock
+   + Little Monkey
+   + Bed
+   + Cake
+   + Candle
+   + Cat
+   + Fiddle
+   + Cow
+   + Moon
+   + Dog
+   + Dish
+   + Spoon
+   + Hot Cross Buns
+   + Broken Egg
+   + Teapot
+   + Spider
+   + Pail of Water
+   + Ladybug
+   + Peanut
+   + Boat
+   + Mulberry Bush
+   + Sewing Needle
+   + Spinning Wheel
+   + Pig
+   + Dog Bone
+   + Cupboard
+   + Orange
+   + Lemon
+   + Weasel
+   + Rose
+   + Violet
+   + Sugar
+   + Oar
+   + Baseball
+   + Baseball Bat
+   + Baseball Cap
+   + Teddy Bear
+   + Muffin
+   + Mittens
+   + Fly
+   + Pitchfork
+   + Torch
+* ENDINGS
+  + Hard Time :: Buy the oregano, then sell it to an undercover cop.
+                 He'll come back to arrest you later.
+  + You Made It :: Consistently make trades with Sunglasses Gent, and
+                   eventually the Godfather will show up.
+  + Master of the Dark Arts :: Collect a magic wand, book of dark
+       arts, and a cloak. The Dark Sorcerer will come to challenge you
+       later.
+  + Tycoon :: Buy Planet Earth from the Investor.
+  + Accomplished Nothing :: Trade nothing. Ever. Eventually Dad will
+       come back and comment on it.
+  + Satanist :: Sell enough souls to the Devil.
+* ACHIEVEMENTS
+  + Three Blind Mice :: Collect, erm, three blind mice.
+  + Librarian :: Have a copy of all five books (including the Book of
+                 Dark Arts).
+  + Was his Name-O :: Get the five letters B, I, N, G, and O.
+  + Jumping on the Bed :: Collect five little monkeys and a bed for
+       them to jump on.
+  + Happy Birthday :: Give the birthday kid a cake and a candle.
+  + Cat and the Fiddle :: What it says.
+  + Dish and the Spoon :: What it says.
+  + Hickory Dickory Dock :: Get the mouse and the grandfather clock.
+  + Sat down Beside Her :: Present the spider to Maiden.
+  + Hello Operator :: Give the boat to the Devil.
+  + Jack of all Trades :: Collect every object at least once (not
+       necessarily in one playthrough).
+  + Ol' MacDonald :: Get a pig, a cow, and a horse.
+  + Old Mother Hubbard :: Give Old Maid a Dog Bone.
+  + Pat-a-Cake :: Give the baker a cake and the letter 'B'.
+  + Pop! :: Get a monkey and a weasel.
+  + Royal Flush :: Get all of the playing cards.
+  + Row Row Row :: Get an oar and a boat.
+  + Take me Out :: Get the three baseball-themed items.
+  + Drury Lane :: Get enough muffins to summon the muffin variant of
+                  the Baker.
+  + She Lives There?! :: Give the old maid the shoe.
+  + Three Little Kittens :: Get three cats and a single Mittens item.
+  + Got it Back :: Trade the nail away but then get it back later.
+  + Pricked her Finger :: Present the spinning wheel to the maiden.
+* EVENTS
