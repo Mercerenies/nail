@@ -107,6 +107,7 @@
    + Fly
    + Pitchfork
    + Torch
+   + Hammer
 * ENDINGS
   + Hard Time :: Buy the oregano, then sell it to an undercover cop.
                  He'll come back to arrest you later.
