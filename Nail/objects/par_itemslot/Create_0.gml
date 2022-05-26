@@ -1,5 +1,5 @@
 
-static isStandard = function() {
+isStandard = function() {
   return false;
 }
 

@@ -1,6 +1,6 @@
 
 event_inherited();
 
-static isStandard = function() {
+isStandard = function() {
   return true;
 }

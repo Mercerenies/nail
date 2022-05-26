@@ -4,6 +4,7 @@
     {"id":{"name":"spr_Professor","path":"sprites/spr_Professor/spr_Professor.yy",},"order":1,},
     {"id":{"name":"spr_Background","path":"sprites/spr_Background/spr_Background.yy",},"order":0,},
     {"id":{"name":"obj_TableItemSlot","path":"objects/obj_TableItemSlot/obj_TableItemSlot.yy",},"order":5,},
+    {"id":{"name":"module_Util","path":"scripts/module_Util/module_Util.yy",},"order":19,},
     {"id":{"name":"spr_TableItemSlot","path":"sprites/spr_TableItemSlot/spr_TableItemSlot.yy",},"order":4,},
     {"id":{"name":"spr_Background1","path":"sprites/spr_Background1/spr_Background1.yy",},"order":1,},
     {"id":{"name":"spr_Player","path":"sprites/spr_Player/spr_Player.yy",},"order":0,},
