@@ -21,9 +21,6 @@
    + Old Maid
    + Baker
    + Baker (Muffin Variant)
-** STRETCH GOALS
-   + Genie
-   + Dr. Debug
 * ITEMS
 ** STARTING
    + Nail (Endgame: Accomplished Nothing, kinda)
@@ -154,3 +151,7 @@
   + Pricked her Finger :: Present the spinning wheel to the maiden.
   + Be our Guest :: Have a grandfather clock, a candle, and a teapot.
 * EVENTS
+* STRETCH GOALS
+  + Genie
+  + Dr. Debug
+  + MissingNo
