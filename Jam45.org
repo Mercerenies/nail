@@ -26,15 +26,16 @@
    + Nail (Endgame: Accomplished Nothing, kinda)
 ** CRIME PATH
    + Oregano
+   + Handcuffs (Endgame: Hard Time)
+   + Handgun
+   + Sunglasses (Endgame: You Made It)
+** TYCOON PATH
    + Penny
    + Dollar Bill
    + Briefcase of Money
    + Truck full of Money
    + Airplane Hangar full of Money
    + Planet Earth (Endgame: Tycoon)
-   + Handcuffs (Endgame: Hard Time)
-   + Handgun
-   + Sunglasses (Endgame: You Made It)
 ** EDUCATION PATH
    + Math Textbook
    + History Textbook
@@ -148,4 +149,5 @@
   + Three Little Kittens :: Get three cats and a single Mittens item.
   + Got it Back :: Trade the nail away but then get it back later.
   + Pricked her Finger :: Present the spinning wheel to the maiden.
+  + Be our Guest :: Have a grandfather clock, a candle, and a teapot.
 * EVENTS

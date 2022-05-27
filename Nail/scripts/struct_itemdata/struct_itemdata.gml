@@ -16,3 +16,8 @@ function Nail() : ItemData() constructor {
   static getName = function() { return "Nail"; }
   static getSprite = function() { return spr_Nail; }
 }
+
+function Candle() : ItemData() constructor {
+  static getName = function() { return "Candle"; }
+  static getSprite = function() { return spr_Candle; }
+}

@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_Player",
-    "path": "sprites/spr_Player/spr_Player.yy",
+    "name": "spr_DrawDraggingItem",
+    "path": "sprites/spr_DrawDraggingItem/spr_DrawDraggingItem.yy",
   },
   "solid": false,
   "visible": true,
@@ -22,16 +22,16 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":4,"eventType":7,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "People",
-    "path": "folders/People.yy",
+    "name": "UI",
+    "path": "folders/UI.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_Player",
+  "name": "obj_DrawDraggingItem",
   "tags": [],
   "resourceType": "GMObject",
 }

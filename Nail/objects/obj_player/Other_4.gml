@@ -8,3 +8,4 @@ Util.sort(lst, function(a, b) { return a < b; });
 show_message(lst);
 */
 Inventory.addPlayerItem(new Nail());
+Inventory.addPlayerItem(new Candle());
