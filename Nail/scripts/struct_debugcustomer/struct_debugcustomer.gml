@@ -15,4 +15,9 @@ function DebugCustomer() : Customer() constructor {
     return _items;
   }
 
+  static onIntroduce = function() {
+    obj_DialogueBox.enqueue(new DiaText("Hi, I'm Dr. Debug", false));
+    obj_DialogueBox.enqueue(new DiaText("I'd like to trade with you.", true));
+  }
+
 }

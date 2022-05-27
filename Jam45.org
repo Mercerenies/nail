@@ -21,6 +21,9 @@
    + Old Maid
    + Baker
    + Baker (Muffin Variant)
+** STRETCH GOALS
+   + Genie
+   + Dr. Debug
 * ITEMS
 ** STARTING
    + Nail (Endgame: Accomplished Nothing, kinda)

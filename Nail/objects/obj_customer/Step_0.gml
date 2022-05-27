@@ -11,6 +11,7 @@ if ((!_entered_completely) && (x > target_x)) {
     }
     var text = _data.getPossessiveName() + "\nItems";
     Inventory.setCustomerLabel(string_upper(text));
+    _data.onIntroduce();
   }
 
 }
