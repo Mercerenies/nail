@@ -1,11 +1,13 @@
 
 if (mouse_check_button_pressed(mb_left)) {
-  if (position_meeting(mouse_x, mouse_y, self)) {
-    _dragging = true;
-    _anchorX = x - mouse_x;
-    _anchorY = y - mouse_y;
-    _previousOwnerSlot = _ownerSlot;
-    _ownerSlot = undefined;
+  if (!UI.isShowingModal()) {
+    if (position_meeting(mouse_x, mouse_y, self)) {
+      _dragging = true;
+      _anchorX = x - mouse_x;
+      _anchorY = y - mouse_y;
+      _previousOwnerSlot = _ownerSlot;
+      _ownerSlot = undefined;
+    }
   }
 }
 
