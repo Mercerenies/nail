@@ -1,6 +1,8 @@
 
 _data = undefined;
 
+_entered_completely = false;
+
 target_x = room_width - obj_Player.x;
 y = obj_Player.y;
 x = target_x + 200;

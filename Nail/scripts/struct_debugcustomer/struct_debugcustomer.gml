@@ -7,7 +7,7 @@ function DebugCustomer() : Customer() constructor {
     new Candle(),
   ]
 
-  static getName = function() { return "Dr. Debug"; }
+  static getName = function() { return "Fairy Godmother"; }
 
   static getSprite = function() { return spr_Professor; }
 

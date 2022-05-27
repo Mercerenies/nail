@@ -1,0 +1,3 @@
+
+// Read-write field!
+text = "";

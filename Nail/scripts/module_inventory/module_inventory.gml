@@ -3,10 +3,23 @@
 
 Inventory = {};
 
-Inventory.addPlayerItem = function(item_data) {
+Inventory.resetInv = function(target_side) {
+  with (par_ItemSlot) {
+    if (side == target_side) {
+      var contents = getContents();
+      if (!is_undefined(contents)) {
+        with (contents) {
+          instance_destroy();
+        }
+      }
+    }
+  }
+}
+
+Inventory.addItem = function(item_data, side) {
 
   var slots = _Inventory_getAllItemSlotsCanonical();
-  slots = Util.filter(slots, function(slot) { return slot.isStandard() && slot.side == Side.PLAYER && is_undefined(slot.getContents()) });
+  slots = Util.filter(slots, new _Inventory_IsEmptyAndOnSide(side));
   if (array_length(slots) == 0) {
     return undefined;
   }
@@ -16,6 +29,24 @@ Inventory.addPlayerItem = function(item_data) {
   item.setData(item_data);
   item.assignToSlot(slot);
   return item;
+}
+
+Inventory.setCustomerLabel = function(text) {
+  with (obj_InventoryLabel) {
+    if (x > room_width / 2) {
+      self.text = text;
+      break;
+    }
+  }
+}
+
+function _Inventory_IsEmptyAndOnSide(side) constructor {
+  _side = side;
+
+  static call = function(slot) {
+    return slot.isStandard() && slot.side == _side && is_undefined(slot.getContents());
+  }
+
 }
 
 function _Inventory_getAllItemSlots() {

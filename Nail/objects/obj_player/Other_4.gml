@@ -8,7 +8,7 @@ Util.sort(lst, function(a, b) { return a < b; });
 show_message(lst);
 */
 
-Inventory.addPlayerItem(new Nail());
-Inventory.addPlayerItem(new Candle());
+Inventory.addItem(new Nail(), Side.PLAYER);
+Inventory.addItem(new Candle(), Side.PLAYER);
 
 Customers.summon(new DebugCustomer(), function() {});

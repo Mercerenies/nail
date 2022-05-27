@@ -9,4 +9,7 @@ function Customer() constructor {
   // Should return an array of ItemData.
   static getItems = function() { return []; }
 
+  // Can be overridden if default is grammatically incorrect.
+  static getPossessiveName = function() { return getName() + "'s"; }
+
 }
