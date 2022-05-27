@@ -18,6 +18,10 @@ setCallback = function(cb) {
   _callback = cb;
 }
 
+performTrade = function() {
+  _data.onTradeAttempt();
+}
+
 modalIsBlocking = function() {
   return x > target_x;
 }

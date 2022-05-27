@@ -40,6 +40,62 @@ Inventory.setCustomerLabel = function(text) {
   }
 }
 
+Inventory.getSummary = function() {
+  var playerStash = [];
+  var playerStashI = 0;
+  var playerTable = [];
+  var playerTableI = 0;
+  var customerTable = [];
+  var customerTableI = 0;
+  var customerStash = [];
+  var customerStashI = 0;
+  with (par_ItemSlot) {
+    var contents = getContents();
+    if (!is_undefined(contents)) {
+      var data = contents.getData();
+      if (side == Side.PLAYER) {
+        if (isStandard()) {
+          playerStash[playerStashI++] = data;
+        } else {
+          playerTable[playerTableI++] = data;
+        }
+      } else {
+        if (isStandard()) {
+          customerStash[customerStashI++] = data;
+        } else {
+          customerTable[customerTableI++] = data;
+        }
+      }
+    }
+  }
+  return new InventorySummary(playerStash, playerTable, customerTable, customerStash);
+}
+
+// Perform whatever trade is actively on the table.
+Inventory.doTrade = function() {
+  var summary = Inventory.getSummary();
+
+  // Delete all the items on the table.
+  with (par_ItemSlot) {
+    if (!isStandard()) {
+      eraseContents();
+    }
+  }
+
+  // Do the actual inventory updates. (Note: This does not check for
+  // overflow and will silently discard items if there's no space. The
+  // trade should be rejected by the character if overflow would
+  // occur.)
+  var i;
+  for (i = 0; i < array_length(summary.playerTable); i++) {
+    Inventory.addItem(summary.playerTable[i], Side.CUSTOMER);
+  }
+  for (i = 0; i < array_length(summary.customerTable); i++) {
+    Inventory.addItem(summary.customerTable[i], Side.PLAYER);
+  }
+
+}
+
 function _Inventory_IsEmptyAndOnSide(side) constructor {
   _side = side;
 

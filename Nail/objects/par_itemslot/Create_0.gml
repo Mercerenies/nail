@@ -1,4 +1,7 @@
 
+// A standard item slot is one of the ones to the far left or right
+// which stores the character's inventory. Table slots are not
+// standard.
 isStandard = function() {
   return false;
 }
@@ -10,6 +13,15 @@ getContents = function() {
     }
   }
   return undefined;
+}
+
+eraseContents = function() {
+  var contents = getContents();
+  if (!is_undefined(contents)) {
+    with (contents) {
+      instance_destroy();
+    }
+  }
 }
 
 side = Side.PLAYER;

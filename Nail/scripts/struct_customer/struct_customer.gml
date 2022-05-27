@@ -13,6 +13,8 @@ function Customer() constructor {
 
   static onIntroduce = function() {}
 
+  static onTradeAttempt = function() {}
+
   // VIRTUAL BUT HAS DEFAULT //
 
   // Can be overridden if default is grammatically incorrect.

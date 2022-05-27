@@ -20,4 +20,9 @@ function DebugCustomer() : Customer() constructor {
     obj_DialogueBox.enqueue(new DiaText("I'd like to trade with you.", true));
   }
 
+  static onTradeAttempt = function() {
+    Inventory.doTrade();
+    obj_DialogueBox.enqueue(new DiaText("Pleasure doing business.", true));
+  }
+
 }

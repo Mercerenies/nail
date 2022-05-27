@@ -1,5 +1,6 @@
 {
   "resources": [
+    {"id":{"name":"struct_InventorySummary","path":"scripts/struct_InventorySummary/struct_InventorySummary.yy",},"order":7,},
     {"id":{"name":"spr_TradeButton","path":"sprites/spr_TradeButton/spr_TradeButton.yy",},"order":1,},
     {"id":{"name":"spr_CustomerInventory","path":"sprites/spr_CustomerInventory/spr_CustomerInventory.yy",},"order":2,},
     {"id":{"name":"spr_Professor","path":"sprites/spr_Professor/spr_Professor.yy",},"order":1,},
