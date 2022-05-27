@@ -10,7 +10,15 @@ Util.sort = function(list, lt) {
 }
 
 Util.filter = function(list, pred) {
-  
+  pred = wrap(pred, Function1);
+  var newlist = [];
+  var j = 0;
+  for (var i = 0; i < array_length(list); i++) {
+    if (pred.call(list[i])) {
+      newlist[j++] = list[i];
+    }
+  }
+  return newlist;
 }
 
 function _Util_quicksort(list, lt, begin_, end_) {
