@@ -6,7 +6,7 @@
     "path": "folders/Utilities.yy",
   },
   "resourceVersion": "1.0",
-  "name": "module_Util",
+  "name": "wrap",
   "tags": [],
   "resourceType": "GMScript",
 }

@@ -5,7 +5,12 @@ Util = {};
 
 // In-place sort
 Util.sort = function(list, lt) {
+  lt = wrap(lt, Function2);
   _Util_quicksort(list, lt, 0, array_length(list));
+}
+
+Util.filter = function(list, pred) {
+  
 }
 
 function _Util_quicksort(list, lt, begin_, end_) {
@@ -14,13 +19,11 @@ function _Util_quicksort(list, lt, begin_, end_) {
   }
   var pivot = begin_;
   for (var i = begin_ + 1; i < end_; i++) {
-    if (lt(list[i], list[begin_])) {
-      if (pivot + 1 != i) {
-        var tmp = list[i];
-        list[i] = list[pivot + 1];
-        list[pivot + 1] = tmp;
-        pivot++;
-      }
+    if (lt.call(list[i], list[begin_])) {
+      var tmp = list[i];
+      list[i] = list[pivot + 1];
+      list[pivot + 1] = tmp;
+      pivot++;
     }
   }
   var tmp_begin_ = list[begin_];

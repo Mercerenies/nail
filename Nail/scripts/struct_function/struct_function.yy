@@ -6,7 +6,7 @@
     "path": "folders/Utilities.yy",
   },
   "resourceVersion": "1.0",
-  "name": "module_Util",
+  "name": "struct_Function",
   "tags": [],
   "resourceType": "GMScript",
 }
