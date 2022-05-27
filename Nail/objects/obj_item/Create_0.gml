@@ -11,6 +11,10 @@ _dragging = false;
 _anchorX = 0;
 _anchorY = 0;
 
+getData = function() {
+  return _itemData;
+}
+
 setData = function(data) {
   _itemData = data;
   sprite_index = _itemData.getSprite();
