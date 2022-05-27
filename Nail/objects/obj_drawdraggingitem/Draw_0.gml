@@ -1,11 +1,5 @@
 
-var draggedItem = noone;
-with (obj_Item) {
-  if (isDragging()) {
-    draggedItem = self;
-    break;
-  }
-}
+var draggedItem = Inventory.getDraggedItem();
 
 if (instance_exists(draggedItem)) {
   with (draggedItem) {

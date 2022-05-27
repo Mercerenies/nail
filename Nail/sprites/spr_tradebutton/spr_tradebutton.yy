@@ -36,6 +36,9 @@
     {"compositeImage":{"FrameId":{"name":"42ba27ee-a831-4942-8c1a-af8f97c39df6","path":"sprites/spr_TradeButton/spr_TradeButton.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
         {"FrameId":{"name":"42ba27ee-a831-4942-8c1a-af8f97c39df6","path":"sprites/spr_TradeButton/spr_TradeButton.yy",},"LayerId":{"name":"44779398-9802-4d7e-8fac-16bcaa5e5c22","path":"sprites/spr_TradeButton/spr_TradeButton.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"spr_TradeButton","path":"sprites/spr_TradeButton/spr_TradeButton.yy",},"resourceVersion":"1.0","name":"42ba27ee-a831-4942-8c1a-af8f97c39df6","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"f68a7a20-4af9-4ace-b678-32cd7a9cdf4f","path":"sprites/spr_TradeButton/spr_TradeButton.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"f68a7a20-4af9-4ace-b678-32cd7a9cdf4f","path":"sprites/spr_TradeButton/spr_TradeButton.yy",},"LayerId":{"name":"44779398-9802-4d7e-8fac-16bcaa5e5c22","path":"sprites/spr_TradeButton/spr_TradeButton.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_TradeButton","path":"sprites/spr_TradeButton/spr_TradeButton.yy",},"resourceVersion":"1.0","name":"f68a7a20-4af9-4ace-b678-32cd7a9cdf4f","tags":[],"resourceType":"GMSpriteFrame",},
     {"compositeImage":{"FrameId":{"name":"bfb86d15-2986-4a4e-94d9-bb37b15469df","path":"sprites/spr_TradeButton/spr_TradeButton.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
         {"FrameId":{"name":"bfb86d15-2986-4a4e-94d9-bb37b15469df","path":"sprites/spr_TradeButton/spr_TradeButton.yy",},"LayerId":{"name":"44779398-9802-4d7e-8fac-16bcaa5e5c22","path":"sprites/spr_TradeButton/spr_TradeButton.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"spr_TradeButton","path":"sprites/spr_TradeButton/spr_TradeButton.yy",},"resourceVersion":"1.0","name":"bfb86d15-2986-4a4e-94d9-bb37b15469df","tags":[],"resourceType":"GMSpriteFrame",},
@@ -48,7 +51,7 @@
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,
-    "length": 5.0,
+    "length": 6.0,
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
@@ -57,7 +60,8 @@
             {"id":"ef3ac31d-c2af-4850-b51d-8b8e28e2145e","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"84b562ef-4393-4e25-8e8e-490c003f6656","path":"sprites/spr_TradeButton/spr_TradeButton.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"ab1d392d-5800-4a4e-baa7-be9baceff7ad","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"f7fda9c6-1b2c-4721-bdc7-a475dc80580e","path":"sprites/spr_TradeButton/spr_TradeButton.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"a796553f-e747-4624-99a2-3694bf39cb4f","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"42ba27ee-a831-4942-8c1a-af8f97c39df6","path":"sprites/spr_TradeButton/spr_TradeButton.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"9d2310aa-23b1-41ad-b228-f76da4805584","Key":4.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"bfb86d15-2986-4a4e-94d9-bb37b15469df","path":"sprites/spr_TradeButton/spr_TradeButton.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"4fd7aa68-a4a0-4c50-8707-4abc2c2b504d","Key":4.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"f68a7a20-4af9-4ace-b678-32cd7a9cdf4f","path":"sprites/spr_TradeButton/spr_TradeButton.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"9d2310aa-23b1-41ad-b228-f76da4805584","Key":5.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"bfb86d15-2986-4a4e-94d9-bb37b15469df","path":"sprites/spr_TradeButton/spr_TradeButton.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,

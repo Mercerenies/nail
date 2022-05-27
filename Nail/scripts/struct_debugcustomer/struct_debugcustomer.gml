@@ -3,6 +3,12 @@ function DebugCustomer() : Customer() constructor {
 
   _items = [
     new Nail(),
+    new Nail(),
+    new Nail(),
+    new Nail(),
+    new Nail(),
+    new Candle(),
+    new Candle(),
     new Candle(),
     new Candle(),
   ]

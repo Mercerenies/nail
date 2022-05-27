@@ -96,6 +96,15 @@ Inventory.doTrade = function() {
 
 }
 
+Inventory.getDraggedItem = function() {
+  with (obj_Item) {
+    if (isDragging()) {
+      return self;
+    }
+  }
+  return noone;
+}
+
 function _Inventory_IsEmptyAndOnSide(side) constructor {
   _side = side;
 
