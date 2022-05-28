@@ -12,16 +12,18 @@ Inventory.addItem(new Baseball(), Side.PLAYER);
 
 var a = {
   next: undefined,
-  call: function() {
+  call: function(summary) {
     Customers.summon(new DebugCustomer(), next);
   },
 };
 var b = {
   next: undefined,
-  call: function() {
-    Customers.summon(new Professor(), next);
+  call: function(summary) {
+    ctrl_Pockets.updateInv(POCKET_PROFESSOR);
+    var items = ctrl_Pockets.getInv(POCKET_PROFESSOR);
+    Customers.summon(new Professor(items), next);
   },
 };
 a.next = b;
 b.next = a;
-a.call();
+a.call(new InventorySummary([], [], [], []));

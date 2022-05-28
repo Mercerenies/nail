@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"c679d22e-8411-4d00-89cb-1f6a2e9a01e4","path":"sprites/spr_ItemLists/spr_ItemLists.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"c679d22e-8411-4d00-89cb-1f6a2e9a01e4","path":"sprites/spr_ItemLists/spr_ItemLists.yy",},"LayerId":{"name":"7a5ca068-bac9-4593-8fb2-2db26d73d723","path":"sprites/spr_ItemLists/spr_ItemLists.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_ItemLists","path":"sprites/spr_ItemLists/spr_ItemLists.yy",},"resourceVersion":"1.0","name":"c679d22e-8411-4d00-89cb-1f6a2e9a01e4","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"40ca545e-125f-4cc7-8b9a-4097283ddc4c","path":"sprites/spr_Pockets/spr_Pockets.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"40ca545e-125f-4cc7-8b9a-4097283ddc4c","path":"sprites/spr_Pockets/spr_Pockets.yy",},"LayerId":{"name":"5254be88-0808-4292-865c-ad293a3d60d3","path":"sprites/spr_Pockets/spr_Pockets.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_Pockets","path":"sprites/spr_Pockets/spr_Pockets.yy",},"resourceVersion":"1.0","name":"40ca545e-125f-4cc7-8b9a-4097283ddc4c","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_ItemLists","path":"sprites/spr_ItemLists/spr_ItemLists.yy",},
+    "spriteId": {"name":"spr_Pockets","path":"sprites/spr_Pockets/spr_Pockets.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"1d6b2ad4-e462-4418-b3a0-8974edc92304","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"c679d22e-8411-4d00-89cb-1f6a2e9a01e4","path":"sprites/spr_ItemLists/spr_ItemLists.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"b026cf29-275d-4c8e-b2ae-6b0df0b75bad","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"40ca545e-125f-4cc7-8b9a-4097283ddc4c","path":"sprites/spr_Pockets/spr_Pockets.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -58,22 +58,22 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_ItemLists","path":"sprites/spr_ItemLists/spr_ItemLists.yy",},
+    "parent": {"name":"spr_Pockets","path":"sprites/spr_Pockets/spr_Pockets.yy",},
     "resourceVersion": "1.4",
-    "name": "spr_ItemLists",
+    "name": "spr_Pockets",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"7a5ca068-bac9-4593-8fb2-2db26d73d723","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"5254be88-0808-4292-865c-ad293a3d60d3","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Item Lists",
-    "path": "folders/Items/Item Lists.yy",
+    "name": "Pockets",
+    "path": "folders/Items/Pockets.yy",
   },
   "resourceVersion": "1.0",
-  "name": "spr_ItemLists",
+  "name": "spr_Pockets",
   "tags": [],
   "resourceType": "GMSprite",
 }

@@ -1,17 +1,7 @@
 
-function Professor() : Customer() constructor {
+function Professor(items) : Customer() constructor {
 
-  _items = [ // DEBUG CODE
-    new Nail(),
-    new Nail(),
-    new Nail(),
-    new Nail(),
-    new Nail(),
-    new Candle(),
-    new Candle(),
-    new Penny(),
-    new Penny(),
-  ]
+  _items = items
 
   _tradeRule = new _Professor_TradeRule();
 

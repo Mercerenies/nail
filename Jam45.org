@@ -47,6 +47,7 @@
    + [ ] Magic Wand
    + [ ] Fairy Wand
    + [ ] Evil Cloak
+   + [ ] Broomstick
    + [ ] (Duel) (Endgame: Master of the Dark Arts)
 ** DEVIL PATH
    + [ ] Human Soul
@@ -266,3 +267,4 @@
   + Genie
   + Dr. Debug
   + MissingNo
+  + Witch and poison apple

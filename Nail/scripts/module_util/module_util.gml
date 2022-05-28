@@ -29,6 +29,21 @@ Util.sample = function(list) {
   return list[idx];
 }
 
+// In-place shuffle
+Util.shuffle = function(list) {
+  if (array_length(list) == 0) {
+    return;
+  }
+
+  for (var i = 0; i < array_length(list); i++) {
+    var j = irandom(array_length(list) - 1);
+    var tmp = list[i];
+    list[i] = list[j];
+    list[j] = tmp;
+  }
+
+}
+
 function _Util_quicksort(list, lt, begin_, end_) {
   if (begin_ >= end_) {
     return;
