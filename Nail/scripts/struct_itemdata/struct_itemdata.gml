@@ -87,3 +87,39 @@ function Spider() : ItemData() constructor {
   static getValue = function() { return 0; }
   static getSellValue = function() { return 1; }
 }
+
+function DollarBill() : ItemData() constructor {
+  static getId = function() { return ItemId.DOLLAR_BILL; }
+  static getName = function() { return "Dollar Bill"; }
+  static getSprite = function() { return spr_DollarBill; }
+  static getValue = function() { return 1; }
+  static getSellValue = function() { return 1; }
+}
+
+function Briefcase() : ItemData() constructor {
+  static getId = function() { return ItemId.BRIEFCASE; }
+  static getName = function() { return "Briefcase of Cash"; }
+  static getSprite = function() { return spr_Briefcase; }
+  static getValue = function() { return 2; }
+}
+
+function GoldBar() : ItemData() constructor {
+  static getId = function() { return ItemId.GOLD_BAR; }
+  static getName = function() { return "Gold Bar"; }
+  static getSprite = function() { return spr_GoldBar; }
+  static getValue = function() { return 2; }
+}
+
+function GoldStack() : ItemData() constructor {
+  static getId = function() { return ItemId.GOLD_STACK; }
+  static getName = function() { return "Stack of Gold Bars"; }
+  static getSprite = function() { return spr_StackOfGoldBars; }
+  static getValue = function() { return 3; }
+}
+
+function TreasureChest() : ItemData() constructor {
+  static getId = function() { return ItemId.CHEST; }
+  static getName = function() { return "Treasure Chest"; }
+  static getSprite = function() { return spr_TreasureChest; }
+  static getValue = function() { return 3; }
+}

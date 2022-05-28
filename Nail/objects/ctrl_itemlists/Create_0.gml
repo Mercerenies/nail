@@ -7,8 +7,9 @@
 // character.
 commonList = [
   new Penny(),
-  new Candle(),
-  new Baseball(),
+  new Candle(), // DEBUG CODE
+  new Baseball(), // DEBUG CODE
+  new DollarBill(),
 ]
 
 professorList = [

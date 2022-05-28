@@ -32,10 +32,11 @@
    + [ ] Badge (Endgame: Good Samaritan)
 ** TYCOON PATH
    + [X] Penny
-   + [ ] Dollar Bill
-   + [ ] Briefcase of Money
-   + [ ] Truck full of Money
-   + [ ] Airplane Hangar full of Money
+   + [X] Dollar Bill
+   + [X] Briefcase of Money
+   + [X] Gold Bar
+   + [X] Stack of Gold Bars
+   + [X] Chest Full of Gold Bars
    + [ ] Planet Earth (Endgame: Tycoon)
 ** EDUCATION PATH
    + [X] Math Textbook
@@ -114,7 +115,7 @@
    + [ ] Torch
    + [ ] Hammer
    + [ ] Football
-* END[ ] INGS
+* ENDINGS
   + Hard Time :: Buy the oregano, then sell it to an undercover cop.
                  He'll come back to arrest you later.
   + You Made It :: Consistently make trades with Sunglasses Gent, and

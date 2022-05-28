@@ -18,8 +18,13 @@ function TradeRule() constructor {
 
   // PROVIDED (OVERRIDABLE) METHODS //
 
-  // Returns a RejectionRule
+  // Returns a RejectionRule (for objects the character does not want)
   static rejectionRule = function() {
+    return new NullRejectionRule();
+  }
+
+  // Returns a RejectionRule (for objects the character wants to keep)
+  static keepRule = function() {
     return new NullRejectionRule();
   }
 

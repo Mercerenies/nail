@@ -11,4 +11,9 @@ enum ItemId {
   HISTORY_TEXTBOOK = 8,
   TEAPOT = 9,
   SPIDER = 10,
+  DOLLAR_BILL = 11,
+  BRIEFCASE = 12,
+  GOLD_BAR = 13,
+  GOLD_STACK = 14,
+  CHEST = 15,
 }
