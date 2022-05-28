@@ -6,10 +6,10 @@ text_is_passive = true;
 busy = false;
 
 next = function() {
+  text_is_passive = true;
+  dia_text = "";
+  display_text = "";
   if (!ds_queue_empty(dia)) {
-    text_is_passive = true;
-    dia_text = "";
-    display_text = "";
     var ev = ds_queue_dequeue(dia);
     ev.trigger(self);
   }

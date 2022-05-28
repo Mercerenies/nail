@@ -11,4 +11,11 @@ show_message(lst);
 Inventory.addItem(new Nail(), Side.PLAYER);
 Inventory.addItem(new Candle(), Side.PLAYER);
 
-Customers.summon(new DebugCustomer(), function() {});
+var repeat_ = {
+  myself: undefined,
+  call: function() {
+    Customers.summon(new DebugCustomer(), myself);
+  },
+};
+repeat_.myself = repeat_;
+repeat_.call();

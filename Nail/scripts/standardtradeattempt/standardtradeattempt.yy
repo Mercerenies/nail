@@ -6,7 +6,7 @@
     "path": "folders/People.yy",
   },
   "resourceVersion": "1.0",
-  "name": "struct_Valuator",
+  "name": "standardTradeAttempt",
   "tags": [],
   "resourceType": "GMScript",
 }

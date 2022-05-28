@@ -13,6 +13,8 @@ function DebugCustomer() : Customer() constructor {
     new Penny(),
   ]
 
+  _tradeRule = new _DebugCustomer_TradeRule();
+
   static getName = function() { return "Dr. Debug"; }
 
   static getSprite = function() { return spr_Professor; }
@@ -27,22 +29,23 @@ function DebugCustomer() : Customer() constructor {
   }
 
   static onTradeAttempt = function() {
-    // Check sizes.
-    switch (Inventory.sizesMakeSense()) {
-    case SizeError.PLAYER_CANNOT_CARRY:
-      obj_DialogueBox.enqueue(new DiaText("I don't think you can carry that much stuff.", true));
-      return;
-    case SizeError.CUSTOMER_CANNOT_CARRY:
-      obj_DialogueBox.enqueue(new DiaText("I don't think you I carry that much stuff.", true));
-      return;
-    case SizeError.NONE:
-      // Pass through to rest of function.
-      break;
-    }
-
-    Inventory.doTrade();
-    obj_DialogueBox.enqueue(new DiaText("Pleasure doing business.", false));
-    obj_DialogueBox.enqueue(customerExitEvent());
+    standardTradeAttempt(_tradeRule);
   }
+
+}
+
+function _DebugCustomer_TradeRule() : TradeRule() constructor {
+
+  static playerOverflow = function() { return "I don't think you can carry that much stuff."; }
+
+  static customerOverflow = function() { return "I don't think I can carry that much stuff."; }
+
+  static playerValuation = function() { return new DefaultValuator(); }
+
+  static customerValuation = function() { return new DefaultValuator(); }
+
+  static departureMessage = function() { return "Pleasure doing business."; }
+
+  static badTradeMessage = function() { return "You'll have to do better than that."; }
 
 }
