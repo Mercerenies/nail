@@ -37,7 +37,8 @@ function _Professor_TradeRule() : TradeRule() constructor {
 
   static badTradeMessage = function() { return "I'm afraid that wouldn't be in my interests."; }
 
-  static hatesItem = function(itemData) {
-    return undefined;
+  static rejectionRule = function() {
+    return new NullRejectionRule();
   }
+
 }

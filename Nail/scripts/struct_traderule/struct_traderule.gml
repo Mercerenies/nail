@@ -20,8 +20,8 @@ function TradeRule() constructor {
 
   // Returns undefined if the item is acceptable, or a string
   // expressing disgust if not.
-  static hatesItem = function(itemData) {
-    return undefined;
+  static rejectionRule = function() {
+    return new NullRejectionRule();
   }
 
 }

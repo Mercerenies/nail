@@ -18,10 +18,11 @@ function standardTradeAttempt(rule) {
 
   // Check to make sure the customer doesn't hate anything in the
   // deal.
+  var rejectionRule = rule.rejectionRule();
   for (var i = 0; i < array_length(summary.playerTable); i++) {
-    var hateMessage = rule.hatesItem(summary.playerTable[i]);
-    if (!is_undefined(hateMessage)) {
-      obj_DialogueBox.enqueue(new DiaText(hateMessage, true));
+    var hateReaction = rejectionRule.getReaction(summary.playerTable[i]);
+    if (!is_undefined(hateReaction)) {
+      hateReaction.call();
       return;
     }
   }

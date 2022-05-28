@@ -48,10 +48,18 @@ function _DebugCustomer_TradeRule() : TradeRule() constructor {
 
   static badTradeMessage = function() { return "You'll have to do better than that."; }
 
-  static hatesItem = function(itemData) {
+  static rejectionRule = function() {
+    return new _DebugCustomer_RejectionRule();
+  }
+
+}
+function _DebugCustomer_RejectionRule() : RejectionRule() constructor {
+
+  static getReaction = function(itemData) {
     if (itemData.getId() == ItemId.BASEBALL) {
-      return "Eek! I'm afraid of baseballs!";
+      return new MildRejection("Eek! I'm afraid of baseballs!");
     }
     return undefined;
   }
+
 }

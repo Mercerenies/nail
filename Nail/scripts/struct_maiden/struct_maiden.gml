@@ -37,7 +37,8 @@ function _Maiden_TradeRule() : TradeRule() constructor {
 
   static badTradeMessage = function() { return "Terribly sorry, but can you offer a little more, perhaps?"; }
 
-  static hatesItem = function(itemData) {
-    return undefined;
+  static rejectionRule = function() {
+    return new NullRejectionRule();
   }
+
 }
