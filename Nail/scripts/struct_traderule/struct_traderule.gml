@@ -14,4 +14,14 @@ function TradeRule() constructor {
 
   static departureMessage = function() {}
 
+  static badTradeMessage = function() {}
+
+  // PROVIDED (OVERRIDABLE) METHODS //
+
+  // Returns undefined if the item is acceptable, or a string
+  // expressing disgust if not.
+  static hatesItem = function(itemData) {
+    return undefined;
+  }
+
 }

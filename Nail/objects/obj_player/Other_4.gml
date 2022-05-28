@@ -10,6 +10,7 @@ show_message(lst);
 
 Inventory.addItem(new Nail(), Side.PLAYER);
 Inventory.addItem(new Candle(), Side.PLAYER);
+Inventory.addItem(new Baseball(), Side.PLAYER);
 
 var repeat_ = {
   myself: undefined,
