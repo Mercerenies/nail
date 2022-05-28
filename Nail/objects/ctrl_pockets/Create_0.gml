@@ -17,3 +17,7 @@ updateInv = function(index) {
   var logic = _logic[$ index];
   logic.updateInv(_data[$ index], _targetCount);
 }
+
+replaceInv = function(index, items) {
+  _data[$ index] = items;
+}

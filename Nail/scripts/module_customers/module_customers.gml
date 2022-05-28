@@ -11,3 +11,21 @@ Customers.summon = function(customer, cb) {
   inst.setCustomerData(customer);
   inst.setCallback(cb);
 }
+
+// Customers.summon but handles the standard character's inventory as
+// well. customerType shall be a unary constructor which takes an item
+// list.
+Customers.summonStandard = function(customerType, pocketIndex, cb) {
+  cb = wrap(cb, Function1);
+  var items = ctrl_Pockets.getInv(pocketIndex);
+  Customers.summon(new customerType(items), new _Customers_summonStandard_callback(pocketIndex, cb));
+}
+
+function _Customers_summonStandard_callback(pocketIndex, cb) constructor {
+  _pocketIndex = pocketIndex;
+  _cb = cb;
+  static call = function(summary) {
+    ctrl_Pockets.replaceInv(_pocketIndex, summary.customerStash);
+    _cb.call(summary);
+  }
+}

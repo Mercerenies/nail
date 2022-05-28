@@ -195,6 +195,8 @@
 ** GROUP A EVENT
    Group A performs the first of the following events whose
    precondition is satisfied.
+   + If the player's inventory is literally empty or consists only of
+     pennies, trigger Godmother Event.
    + If Briefcase Event is unresolved and it has been at least one
      Group A event since Briefcase Event, then trigger Briefcase
      Return Event.
@@ -209,6 +211,11 @@
    + If the player has oregano, then Oregano Buy Event.
    + Dad Check Event, unconditionally.
 ** GROUP B EVENT
+   Group B performs the first of the following events whose
+   precondition is satisfied.
+   + If the player's inventory is literally empty or consists only of
+     pennies, trigger Godmother Event.
+
    Group B cycles through the following events in a random (determined
    at game start) order. If an event cannot occur, then the next one
    in the list occurs instead.

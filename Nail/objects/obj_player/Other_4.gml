@@ -20,8 +20,7 @@ var b = {
   next: undefined,
   call: function(summary) {
     ctrl_Pockets.updateInv(POCKET_PROFESSOR);
-    var items = ctrl_Pockets.getInv(POCKET_PROFESSOR);
-    Customers.summon(new Professor(items), next);
+    Customers.summonStandard(Professor, POCKET_PROFESSOR, next);
   },
 };
 a.next = b;
