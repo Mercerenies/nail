@@ -43,3 +43,31 @@ function Baseball() : ItemData() constructor {
   static getSprite = function() { return spr_Baseball; }
   static getValue = function() { return 1; }
 }
+
+function MathTextbook() : ItemData() constructor {
+  static getId = function() { return ItemId.MATH_TEXTBOOK; }
+  static getName = function() { return "Math Textbook"; }
+  static getSprite = function() { return spr_MathBook; }
+  static getValue = function() { return 1; }
+}
+
+function EnglishTextbook() : ItemData() constructor {
+  static getId = function() { return ItemId.ENGLISH_TEXTBOOK; }
+  static getName = function() { return "English Textbook"; }
+  static getSprite = function() { return spr_EnglishBook; }
+  static getValue = function() { return 1; }
+}
+
+function ScienceTextbook() : ItemData() constructor {
+  static getId = function() { return ItemId.SCIENCE_TEXTBOOK; }
+  static getName = function() { return "Science Textbook"; }
+  static getSprite = function() { return spr_ScienceBook; }
+  static getValue = function() { return 1; }
+}
+
+function HistoryTextbook() : ItemData() constructor {
+  static getId = function() { return ItemId.HISTORY_TEXTBOOK; }
+  static getName = function() { return "History Textbook"; }
+  static getSprite = function() { return spr_HistoryBook; }
+  static getValue = function() { return 1; }
+}

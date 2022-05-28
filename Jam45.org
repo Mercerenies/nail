@@ -23,96 +23,97 @@
    + Baker (Muffin Variant)
 * ITEMS
 ** STARTING
-   + Nail (Endgame: Accomplished Nothing, kinda)
+   + [X] Nail (Endgame: Accomplished Nothing, kinda)
 ** CRIME PATH
-   + Oregano
-   + Handcuffs (Endgame: Hard Time)
-   + Handgun
-   + Sunglasses (Endgame: You Made It)
-   + Badge (Endgame: Good Samaritan)
+   + [ ] Oregano
+   + [ ] Handcuffs (Endgame: Hard Time)
+   + [ ] Handgun
+   + [ ] Sunglasses (Endgame: You Made It)
+   + [ ] Badge (Endgame: Good Samaritan)
 ** TYCOON PATH
-   + Penny
-   + Dollar Bill
-   + Briefcase of Money
-   + Truck full of Money
-   + Airplane Hangar full of Money
-   + Planet Earth (Endgame: Tycoon)
+   + [X] Penny
+   + [ ] Dollar Bill
+   + [ ] Briefcase of Money
+   + [ ] Truck full of Money
+   + [ ] Airplane Hangar full of Money
+   + [ ] Planet Earth (Endgame: Tycoon)
 ** EDUCATION PATH
-   + Math Textbook
-   + History Textbook
-   + Science Textbook
-   + English Textbook
+   + [X] Math Textbook
+   + [X] History Textbook
+   + [X] Science Textbook
+   + [X] English Textbook
 ** SORCERER PATH
-   + Book of Dark Arts
-   + Magic Wand
-   + Fairy Wand
-   + Evil Cloak
-   + (Duel) (Endgame: Master of the Dark Arts)
+   + [ ] Book of Dark Arts
+   + [ ] Magic Wand
+   + [ ] Fairy Wand
+   + [ ] Evil Cloak
+   + [ ] (Duel) (Endgame: Master of the Dark Arts)
 ** DEVIL PATH
-   + Human Soul
-   + Contract
-   + Throne of Satan (Endgame: Satanist)
+   + [ ] Human Soul
+   + [ ] Contract
+   + [ ] Throne of Satan (Endgame: Satanist)
 ** PLAYING CARDS
-   + Queen of Hearts
-   + King of Hearts
-   + Jack of Hearts
-   + Ace of Hearts
-   + Ten of Hearts
+   + [ ] Queen of Hearts
+   + [ ] King of Hearts
+   + [ ] Jack of Hearts
+   + [ ] Ace of Hearts
+   + [ ] Ten of Hearts
 ** MISCELLANEOUS
-   + Blind Mouse
-   + Letter 'B'
-   + Letter 'I'
-   + Letter 'N'
-   + Letter 'G'
-   + Letter 'O'
-   + Tiger (caught by his toe)
-   + Horseshoe
-   + Horse
-   + Grandfather Clock
-   + Little Monkey
-   + Bed
-   + Cake
-   + Candle
-   + Cat
-   + Fiddle
-   + Cow
-   + Moon
-   + Dog
-   + Dish
-   + Spoon
-   + Hot Cross Buns
-   + Broken Egg
-   + Teapot
-   + Spider
-   + Pail of Water
-   + Ladybug
-   + Peanut
-   + Boat
-   + Mulberry Bush
-   + Sewing Needle
-   + Spinning Wheel
-   + Pig
-   + Dog Bone
-   + Cupboard
-   + Orange
-   + Lemon
-   + Weasel
-   + Rose
-   + Violet
-   + Sugar
-   + Oar
-   + Baseball
-   + Baseball Bat
-   + Baseball Cap
-   + Teddy Bear
-   + Muffin
-   + Mittens
-   + Fly
-   + Pitchfork
-   + Torch
-   + Hammer
-   + Football
-* ENDINGS
+   + [ ] Blind Mouse
+   + [ ] Letter 'B'
+   + [ ] Letter 'I'
+   + [ ] Letter 'N'
+   + [ ] Letter 'G'
+   + [ ] Letter 'O'
+   + [ ] Tiger (caught by his toe)
+   + [ ] Horseshoe
+   + [ ] Horse
+   + [ ] Grandfather Clock
+   + [ ] Little Monkey
+   + [ ] Bed
+   + [ ] Cake
+   + [ ] Cradle
+   + [X] Candle
+   + [ ] Cat
+   + [ ] Fiddle
+   + [ ] Cow
+   + [ ] Moon
+   + [ ] Dog
+   + [ ] Dish
+   + [ ] Spoon
+   + [ ] Hot Cross Buns
+   + [ ] Broken Egg
+   + [ ] Teapot
+   + [ ] Spider
+   + [ ] Pail of Water
+   + [ ] Ladybug
+   + [ ] Peanut
+   + [ ] Boat
+   + [ ] Mulberry Bush
+   + [ ] Sewing Needle
+   + [ ] Spinning Wheel
+   + [ ] Pig
+   + [ ] Dog Bone
+   + [ ] Cupboard
+   + [ ] Orange
+   + [ ] Lemon
+   + [ ] Weasel
+   + [ ] Rose
+   + [ ] Violet
+   + [ ] Sugar
+   + [ ] Oar
+   + [X] Baseball
+   + [ ] Baseball Bat
+   + [ ] Baseball Cap
+   + [ ] Teddy Bear
+   + [ ] Muffin
+   + [ ] Mittens
+   + [ ] Fly
+   + [ ] Pitchfork
+   + [ ] Torch
+   + [ ] Hammer
+   + [ ] Football
+* END[ ] INGS
   + Hard Time :: Buy the oregano, then sell it to an undercover cop.
                  He'll come back to arrest you later.
   + You Made It :: Consistently make trades with Sunglasses Gent, and
@@ -126,7 +127,7 @@
   + Satanist :: Sell enough souls to the Devil.
   + Good Samaritan :: Turn in enough money, weapons, and illicit goods
                       to the cop.
-* ACHIEVEMENTS
+* ACH[ ] IEVEMENTS
   + Three Blind Mice :: Collect, erm, three blind mice.
   + Librarian :: Have a copy of all five books (including the Book of
                  Dark Arts).
@@ -155,7 +156,11 @@
   + Got it Back :: Trade the nail away but then get it back later.
   + Pricked her Finger :: Present the spinning wheel to the maiden.
   + Be our Guest :: Have a grandfather clock, a candle, and a teapot.
-  + Pittance for the Poor :: Ask for a penny in exchange for nothing.
+  + Pittance for the Poor :: Ask for or give a penny in exchange for
+       nothing.
+  + Soul Driver :: Give every character's soul to the Devil.
+  + Little Boy Blue and the Man on the Moon :: Have a cat, a cradle,
+       and a spoon.
 * EVENTS
   Note: See ~Events.odg~ for the flowchart which organizes these
   events.

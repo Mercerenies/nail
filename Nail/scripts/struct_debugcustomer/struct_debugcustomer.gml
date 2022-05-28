@@ -17,7 +17,7 @@ function DebugCustomer() : Customer() constructor {
 
   static getName = function() { return "Dr. Debug"; }
 
-  static getSprite = function() { return spr_Professor; }
+  static getSprite = function() { return spr_DrDebug; }
 
   static getItems = function() {
     return _items;

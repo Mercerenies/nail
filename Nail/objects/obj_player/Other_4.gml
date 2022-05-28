@@ -12,11 +12,18 @@ Inventory.addItem(new Nail(), Side.PLAYER);
 Inventory.addItem(new Candle(), Side.PLAYER);
 Inventory.addItem(new Baseball(), Side.PLAYER);
 
-var repeat_ = {
-  myself: undefined,
+var a = {
+  next: undefined,
   call: function() {
-    Customers.summon(new DebugCustomer(), myself);
+    Customers.summon(new DebugCustomer(), next);
   },
 };
-repeat_.myself = repeat_;
-repeat_.call();
+var b = {
+  next: undefined,
+  call: function() {
+    Customers.summon(new Professor(), next);
+  },
+};
+a.next = b;
+b.next = a;
+a.call();
