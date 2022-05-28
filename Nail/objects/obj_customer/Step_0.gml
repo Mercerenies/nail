@@ -15,3 +15,11 @@ if ((!_entered_completely) && (x > target_x)) {
   }
 
 }
+
+if (_exiting) {
+  x += 6;
+  if (x >= xstart) {
+    _callback.call();
+    instance_destroy();
+  }
+}

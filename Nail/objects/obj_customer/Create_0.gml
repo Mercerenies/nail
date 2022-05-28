@@ -2,10 +2,12 @@
 _data = undefined;
 
 _entered_completely = false;
+_exiting = false;
 
 target_x = room_width - obj_Player.x;
 y = obj_Player.y;
 x = target_x + 200;
+xstart = x;
 
 _callback = new Function0(function() {});
 
@@ -22,6 +24,12 @@ performTrade = function() {
   _data.onTradeAttempt();
 }
 
+doExit = function() {
+  _exiting = true;
+  Inventory.resetInv(Side.CUSTOMER);
+  Inventory.setCustomerLabel("");
+}
+
 modalIsBlocking = function() {
-  return x > target_x;
+  return (x > target_x) || (_exiting);
 }

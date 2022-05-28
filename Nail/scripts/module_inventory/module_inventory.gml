@@ -96,6 +96,22 @@ Inventory.doTrade = function() {
 
 }
 
+// Returns true if each participant has room to store all of the
+// proposed items in their respective inventories.
+Inventory.sizesMakeSense = function() {
+  var summary = Inventory.getSummary();
+
+  if (array_length(summary.playerStash) + array_length(summary.customerTable) > INVENTORY_SIZE) {
+    return SizeError.PLAYER_CANNOT_CARRY;
+  }
+
+  if (array_length(summary.customerStash) + array_length(summary.playerTable) > INVENTORY_SIZE) {
+    return SizeError.CUSTOMER_CANNOT_CARRY;
+  }
+
+  return SizeError.NONE
+}
+
 Inventory.getDraggedItem = function() {
   with (obj_Item) {
     if (isDragging()) {

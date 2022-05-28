@@ -1,0 +1,8 @@
+
+#macro INVENTORY_SIZE 10
+
+enum SizeError {
+  NONE = 0,
+  PLAYER_CANNOT_CARRY = 1,
+  CUSTOMER_CANNOT_CARRY = 2,
+}

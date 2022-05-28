@@ -1594,8 +1594,8 @@
   "canGenerateBitmap": true,
   "maintainGms1Font": false,
   "parent": {
-    "name": "Items",
-    "path": "folders/Items.yy",
+    "name": "Inventory Labels",
+    "path": "folders/Items/Inventory Labels.yy",
   },
   "resourceVersion": "1.0",
   "tags": [],
