@@ -36,7 +36,7 @@ function standardTradeAttempt(rule) {
   }
 
   Inventory.doTrade();
-  obj_DialogueBox.enqueue(new DiaText(rule.departureMessage(), false));
+  obj_DialogueBox.enqueue(new DiaText(rule.departureMessage(summary), false));
   obj_DialogueBox.enqueue(customerExitEvent());
 
 }

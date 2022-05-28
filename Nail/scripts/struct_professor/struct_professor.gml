@@ -33,7 +33,13 @@ function _Professor_TradeRule() : TradeRule() constructor {
 
   static customerValuation = function() { return new DefaultSellValuator(); }
 
-  static departureMessage = function() { return "Lovely! Let's do business again sometime."; }
+  static departureMessage = function(summary) {
+    if (summary.isEmptyTrade()) {
+      return "Another time then, perhaps.";
+    } else {
+      return "Lovely! Let's do business again sometime.";
+    }
+  }
 
   static badTradeMessage = function() { return "I'm afraid that wouldn't be in my interests."; }
 

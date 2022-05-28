@@ -33,7 +33,13 @@ function _Maiden_TradeRule() : TradeRule() constructor {
 
   static customerValuation = function() { return new DefaultSellValuator(); }
 
-  static departureMessage = function() { return "Thank you, sir. I'll be seeing you."; }
+  static departureMessage = function(summary) {
+    if (summary.isEmptyTrade()) {
+      return "Fare thee well, sir.";
+    } else {
+      return "Thank you, sir. I'll be seeing you.";
+    }
+  }
 
   static badTradeMessage = function() { return "Terribly sorry, but can you offer a little more, perhaps?"; }
 

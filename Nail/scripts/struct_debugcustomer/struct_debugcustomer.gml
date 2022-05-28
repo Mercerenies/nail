@@ -44,7 +44,7 @@ function _DebugCustomer_TradeRule() : TradeRule() constructor {
 
   static customerValuation = function() { return new DefaultSellValuator(); }
 
-  static departureMessage = function() { return "Pleasure doing business."; }
+  static departureMessage = function(summary) { return "Pleasure doing business."; }
 
   static badTradeMessage = function() { return "You'll have to do better than that."; }
 

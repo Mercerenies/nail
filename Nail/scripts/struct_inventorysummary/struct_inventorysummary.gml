@@ -4,4 +4,9 @@ function InventorySummary(playerStash_, playerTable_, customerTable_, customerSt
   playerTable = playerTable_;
   customerTable = customerTable_;
   customerStash = customerStash_;
+
+  static isEmptyTrade = function() {
+    return (array_length(playerTable) == 0) && (array_length(customerTable) == 0);
+  }
+
 }

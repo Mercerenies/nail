@@ -162,6 +162,7 @@
   + Soul Driver :: Give every character's soul to the Devil.
   + Little Boy Blue and the Man on the Moon :: Have a cat, a cradle,
        and a spoon.
+  + Radioactive Blood :: Get a spider.
 * EVENTS
   Note: See ~Events.odg~ for the flowchart which organizes these
   events.

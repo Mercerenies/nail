@@ -12,14 +12,13 @@ function TradeRule() constructor {
 
   static customerValuation = function() {}
 
-  static departureMessage = function() {}
+  static departureMessage = function(summary) {}
 
   static badTradeMessage = function() {}
 
   // PROVIDED (OVERRIDABLE) METHODS //
 
-  // Returns undefined if the item is acceptable, or a string
-  // expressing disgust if not.
+  // Returns a RejectionRule
   static rejectionRule = function() {
     return new NullRejectionRule();
   }
