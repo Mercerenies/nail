@@ -21,6 +21,14 @@ Util.filter = function(list, pred) {
   return newlist;
 }
 
+Util.sample = function(list) {
+  if (array_length(list) == 0) {
+    return undefined;
+  }
+  var idx = irandom(array_length(list) - 1)
+  return list[idx];
+}
+
 function _Util_quicksort(list, lt, begin_, end_) {
   if (begin_ >= end_) {
     return;

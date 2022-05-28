@@ -29,6 +29,7 @@
     {"id":{"name":"sh_Invert","path":"shaders/sh_Invert/sh_Invert.yy",},"order":2,},
     {"id":{"name":"spr_MathBook","path":"sprites/spr_MathBook/spr_MathBook.yy",},"order":5,},
     {"id":{"name":"spr_Baseball","path":"sprites/spr_Baseball/spr_Baseball.yy",},"order":4,},
+    {"id":{"name":"spr_ItemLists","path":"sprites/spr_ItemLists/spr_ItemLists.yy",},"order":11,},
     {"id":{"name":"spr_Nail","path":"sprites/spr_Nail/spr_Nail.yy",},"order":0,},
     {"id":{"name":"obj_CustomerInventory","path":"objects/obj_CustomerInventory/obj_CustomerInventory.yy",},"order":3,},
     {"id":{"name":"spr_Candle","path":"sprites/spr_Candle/spr_Candle.yy",},"order":2,},
@@ -53,10 +54,13 @@
     {"id":{"name":"spr_DrDebug","path":"sprites/spr_DrDebug/spr_DrDebug.yy",},"order":2,},
     {"id":{"name":"struct_tradeRule","path":"scripts/struct_tradeRule/struct_tradeRule.yy",},"order":10,},
     {"id":{"name":"module_UI","path":"scripts/module_UI/module_UI.yy",},"order":5,},
+    {"id":{"name":"spr_Init","path":"sprites/spr_Init/spr_Init.yy",},"order":1,},
     {"id":{"name":"wrap","path":"scripts/wrap/wrap.yy",},"order":2,},
     {"id":{"name":"spr_Penny","path":"sprites/spr_Penny/spr_Penny.yy",},"order":3,},
+    {"id":{"name":"ctrl_Init","path":"objects/ctrl_Init/ctrl_Init.yy",},"order":2,},
     {"id":{"name":"enum_SizeError","path":"scripts/enum_SizeError/enum_SizeError.yy",},"order":9,},
     {"id":{"name":"module_Inventory","path":"scripts/module_Inventory/module_Inventory.yy",},"order":2,},
+    {"id":{"name":"rm_Init","path":"rooms/rm_Init/rm_Init.yy",},"order":0,},
     {"id":{"name":"struct_Professor","path":"scripts/struct_Professor/struct_Professor.yy",},"order":2,},
     {"id":{"name":"struct_Customer","path":"scripts/struct_Customer/struct_Customer.yy",},"order":0,},
     {"id":{"name":"fnt_Tooltip","path":"fonts/fnt_Tooltip/fnt_Tooltip.yy",},"order":8,},
@@ -78,6 +82,7 @@
     "children": [],
   },
   "RoomOrderNodes": [
+    {"roomId":{"name":"rm_Init","path":"rooms/rm_Init/rm_Init.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "Folders": [
@@ -93,6 +98,7 @@
     {"folderPath":"folders/Dialogue.yy","order":21,"resourceVersion":"1.0","name":"Dialogue","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/UI/Trade Button.yy","order":13,"resourceVersion":"1.0","name":"Trade Button","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Items/Inventory Labels.yy","order":8,"resourceVersion":"1.0","name":"Inventory Labels","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Initialization.yy","order":23,"resourceVersion":"1.0","name":"Initialization","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},
