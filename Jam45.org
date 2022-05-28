@@ -17,7 +17,7 @@
    + [ ] Birthday Kid
    + [ ] Brother & Sister
    + [X] Maiden
-   + [ ] Farmer
+   + [X] Farmer
    + [ ] Old Maid
    + [X] Baker
    + [ ] Baker (Muffin Variant)
