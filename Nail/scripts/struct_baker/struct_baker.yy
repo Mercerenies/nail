@@ -2,11 +2,11 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "Debug States",
-    "path": "folders/State Machine/States/Debug States.yy",
+    "name": "Customers",
+    "path": "folders/People/Customers.yy",
   },
   "resourceVersion": "1.0",
-  "name": "struct_DebugState3",
+  "name": "struct_Baker",
   "tags": [],
   "resourceType": "GMScript",
 }

@@ -24,6 +24,12 @@ maidenList = [
   new Teapot(),
 ]
 
+bakerList = [
+  new Teapot(),
+  new Plate(),
+  new Spoon(),
+]
+
 // For efficient lookup.
 _commonIndex = ds_map_create();
 for (var i = 0; i < array_length(commonList); i++) {

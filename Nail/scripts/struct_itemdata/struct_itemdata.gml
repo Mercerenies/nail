@@ -123,3 +123,17 @@ function TreasureChest() : ItemData() constructor {
   static getSprite = function() { return spr_TreasureChest; }
   static getValue = function() { return 3; }
 }
+
+function Plate() : ItemData() constructor {
+  static getId = function() { return ItemId.PLATE; }
+  static getName = function() { return "Plate"; }
+  static getSprite = function() { return spr_Plate; }
+  static getValue = function() { return 1; }
+}
+
+function Spoon() : ItemData() constructor {
+  static getId = function() { return ItemId.SPOON; }
+  static getName = function() { return "Spoon"; }
+  static getSprite = function() { return spr_Spoon; }
+  static getValue = function() { return 1; }
+}

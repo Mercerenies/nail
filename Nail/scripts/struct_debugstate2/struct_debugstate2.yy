@@ -2,8 +2,8 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "States",
-    "path": "folders/State Machine/States.yy",
+    "name": "Debug States",
+    "path": "folders/State Machine/States/Debug States.yy",
   },
   "resourceVersion": "1.0",
   "name": "struct_DebugState2",

@@ -7,7 +7,7 @@ function DebugState3() : State() constructor {
   }
 
   static nextNode = function() {
-    return new DebugState2();
+    return new DebugState4();
   }
 
 }

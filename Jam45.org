@@ -12,15 +12,15 @@
    + President
    + Dad
 ** MISCELLANEOUS CHARACTERS
-   + The Professor
-   + Fairy Godmother
-   + Birthday Kid
-   + Brother & Sister
-   + Maiden
-   + Farmer
-   + Old Maid
-   + Baker
-   + Baker (Muffin Variant)
+   + [X] The Professor
+   + [ ] Fairy Godmother
+   + [ ] Birthday Kid
+   + [ ] Brother & Sister
+   + [X] Maiden
+   + [ ] Farmer
+   + [ ] Old Maid
+   + [ ] Baker
+   + [ ] Baker (Muffin Variant)
 * ITEMS
 ** STARTING
    + [X] Nail (Endgame: Accomplished Nothing, kinda)
@@ -81,8 +81,8 @@
    + [ ] Cow
    + [ ] Moon
    + [ ] Dog
-   + [ ] Dish
-   + [ ] Spoon
+   + [X] Plate
+   + [X] Spoon
    + [ ] Hot Cross Buns
    + [ ] Broken Egg
    + [X] Teapot

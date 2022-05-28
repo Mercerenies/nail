@@ -16,4 +16,6 @@ enum ItemId {
   GOLD_BAR = 13,
   GOLD_STACK = 14,
   CHEST = 15,
+  PLATE = 16,
+  SPOON = 17,
 }
