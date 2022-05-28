@@ -1,25 +1,25 @@
 
 * CHARACTERS
 ** PLOT CHARACTERS
-   + The Police Officer
-   + The Police Officer (Undercover)
-   + Gent in the Sunglasses
-   + The Dark Sorcerer
-   + Investor
-   + Devil
+   + [ ] The Police Officer
+   + [ ] The Police Officer (Undercover)
+   + [ ] Gent in the Sunglasses
+   + [ ] The Dark Sorcerer
+   + [ ] Investor
+   + [ ] Devil
+   + [ ] Fairy Godmother
 ** ENDGAME CHARACTERS
-   + The Godfather
-   + President
-   + Dad
+   + [ ] The Godfather
+   + [ ] President
+   + [ ] Dad
 ** MISCELLANEOUS CHARACTERS
    + [X] The Professor
-   + [ ] Fairy Godmother
    + [ ] Birthday Kid
    + [ ] Brother & Sister
    + [X] Maiden
    + [ ] Farmer
    + [ ] Old Maid
-   + [ ] Baker
+   + [X] Baker
    + [ ] Baker (Muffin Variant)
 * ITEMS
 ** STARTING

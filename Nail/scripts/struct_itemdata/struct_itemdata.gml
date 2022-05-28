@@ -137,3 +137,10 @@ function Spoon() : ItemData() constructor {
   static getSprite = function() { return spr_Spoon; }
   static getValue = function() { return 1; }
 }
+
+function Horseshoe() : ItemData() constructor {
+  static getId = function() { return ItemId.HORSESHOE; }
+  static getName = function() { return "Horseshoe"; }
+  static getSprite = function() { return spr_Horseshoe; }
+  static getValue = function() { return 1; }
+}

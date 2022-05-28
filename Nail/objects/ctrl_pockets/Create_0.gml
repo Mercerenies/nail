@@ -9,14 +9,17 @@ _rejection = {};
 _data[$ POCKET_PROFESSOR] = [];
 _data[$ POCKET_MAIDEN] = [];
 _data[$ POCKET_BAKER] = [];
+_data[$ POCKET_FARMER] = [];
 
 _logic[$ POCKET_PROFESSOR] = new BasePocketLogic(ctrl_ItemLists.professorList);
 _logic[$ POCKET_MAIDEN] = new BasePocketLogic(ctrl_ItemLists.maidenList);
 _logic[$ POCKET_BAKER] = new BasePocketLogic(ctrl_ItemLists.bakerList);
+_logic[$ POCKET_FARMER] = new BasePocketLogic(ctrl_ItemLists.farmerList);
 
 _rejection[$ POCKET_PROFESSOR] = new ProfessorRejectionRule();
 _rejection[$ POCKET_MAIDEN] = new MaidenRejectionRule();
 _rejection[$ POCKET_BAKER] = new BakerRejectionRule();
+_rejection[$ POCKET_FARMER] = new FarmerRejectionRule();
 
 // Seed all inventories
 var keys = variable_struct_get_names(_data);
