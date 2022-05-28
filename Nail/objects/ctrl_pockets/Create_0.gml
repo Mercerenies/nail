@@ -4,12 +4,16 @@ _targetCount = 3;
 
 _data = {};
 _logic = {};
+_rejection = {};
 
 _data[$ POCKET_PROFESSOR] = [];
 _data[$ POCKET_MAIDEN] = [];
 
 _logic[$ POCKET_PROFESSOR] = new BasePocketLogic(ctrl_ItemLists.professorList);
 _logic[$ POCKET_MAIDEN] = new BasePocketLogic(ctrl_ItemLists.maidenList);
+
+_rejection[$ POCKET_PROFESSOR] = new NullRejectionRule();
+_rejection[$ POCKET_MAIDEN] = new MaidenRejectionRule();
 
 // Seed all inventories
 var keys = variable_struct_get_names(_data);
@@ -35,5 +39,30 @@ replaceInv = function(index, items) {
 }
 
 onTurnTransition = function() {
-  // Nothing here yet (TODO Internal trading)
+  var tradeAttempts = 1;
+  for (var i = 0; i < tradeAttempts; i++) {
+    _attemptInternalTrade();
+  }
+}
+
+_attemptInternalTrade = function() {
+  var keys = variable_struct_get_names(_data);
+  var target1 = Util.sample(keys);
+  var target2 = Util.sample(keys);
+  if (target1 != target2) {
+    var inv1 = _data[$ target1];
+    var inv2 = _data[$ target2];
+    if ((array_length(inv1) > 0) && (array_length(inv2) > 0)) {
+      var i = irandom(array_length(inv1) - 1);
+      var j = irandom(array_length(inv2) - 1);
+      var item1 = inv1[i];
+      var item2 = inv2[j];
+      // If neither character has an objection to the trade, make it
+      // happen.
+      if (is_undefined(_rejection[$ target1].getReaction(item2)) && is_undefined(_rejection[$ target2].getReaction(item1))) {
+        inv1[i] = item2;
+        inv2[j] = item1;
+      }
+    }
+  }
 }
