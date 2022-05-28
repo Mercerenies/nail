@@ -31,7 +31,7 @@ function _Professor_TradeRule() : TradeRule() constructor {
 
   static playerValuation = function() { return new DefaultValuator(); }
 
-  static customerValuation = function() { return new DefaultValuator(); }
+  static customerValuation = function() { return new DefaultSellValuator(); }
 
   static departureMessage = function() { return "Lovely! Let's do business again sometime."; }
 

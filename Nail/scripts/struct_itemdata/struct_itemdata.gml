@@ -5,6 +5,7 @@ function ItemData() constructor {
   static getName = function() {}
   static getSprite = function() {}
   static getValue = function() {}
+  static getSellValue = function() { return getValue(); }
 }
 
 function NoItem() : ItemData() constructor {
@@ -77,4 +78,12 @@ function Teapot() : ItemData() constructor {
   static getName = function() { return "Teapot"; }
   static getSprite = function() { return spr_Teapot; }
   static getValue = function() { return 1; }
+}
+
+function Spider() : ItemData() constructor {
+  static getId = function() { return ItemId.SPIDER; }
+  static getName = function() { return "Spider"; }
+  static getSprite = function() { return spr_Spider; }
+  static getValue = function() { return 0; }
+  static getSellValue = function() { return 1; }
 }

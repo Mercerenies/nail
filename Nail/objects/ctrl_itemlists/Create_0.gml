@@ -16,6 +16,7 @@ professorList = [
   new EnglishTextbook(),
   new HistoryTextbook(),
   new ScienceTextbook(),
+  new Spider(), // DEBUG CODE
 ]
 
 maidenList = [

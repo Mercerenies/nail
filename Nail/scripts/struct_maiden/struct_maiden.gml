@@ -31,7 +31,7 @@ function _Maiden_TradeRule() : TradeRule() constructor {
 
   static playerValuation = function() { return new DefaultValuator(); }
 
-  static customerValuation = function() { return new DefaultValuator(); }
+  static customerValuation = function() { return new DefaultSellValuator(); }
 
   static departureMessage = function() { return "Thank you, sir. I'll be seeing you."; }
 

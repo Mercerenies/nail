@@ -6,7 +6,7 @@
     "path": "folders/People/Valuators.yy",
   },
   "resourceVersion": "1.0",
-  "name": "struct_Valuator",
+  "name": "struct_DefaultSellValuator",
   "tags": [],
   "resourceType": "GMScript",
 }

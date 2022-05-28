@@ -10,4 +10,5 @@ enum ItemId {
   SCIENCE_TEXTBOOK = 7,
   HISTORY_TEXTBOOK = 8,
   TEAPOT = 9,
+  SPIDER = 10,
 }
