@@ -7,7 +7,6 @@
 // character.
 commonList = [
   new Penny(),
-  new Candle(), // DEBUG CODE
   new Baseball(), // DEBUG CODE
   new DollarBill(),
 ]
@@ -25,13 +24,19 @@ maidenList = [
 ]
 
 bakerList = [
-  new Teapot(),
   new Plate(),
   new Spoon(),
 ]
 
 farmerList = [
   new Horseshoe(),
+]
+
+oldMaidList = [
+  new Spoon(),
+  new Plate(),
+  new Teapot(),
+  new Candle(),
 ]
 
 // For efficient lookup.

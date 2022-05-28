@@ -8,13 +8,13 @@
    + [ ] Investor
    + [ ] Devil
    + [ ] Fairy Godmother
+   + [ ] Birthday Kid
 ** ENDGAME CHARACTERS
    + [ ] The Godfather
    + [ ] President
    + [ ] Dad
 ** MISCELLANEOUS CHARACTERS
    + [X] The Professor
-   + [ ] Birthday Kid
    + [ ] Brother & Sister
    + [X] Maiden
    + [X] Farmer
@@ -68,7 +68,7 @@
    + [ ] Letter 'G'
    + [ ] Letter 'O'
    + [ ] Tiger (caught by his toe)
-   + [ ] Horseshoe
+   + [X] Horseshoe
    + [ ] Horse
    + [ ] Grandfather Clock
    + [ ] Little Monkey
@@ -129,7 +129,7 @@
   + Satanist :: Sell enough souls to the Devil.
   + Good Samaritan :: Turn in enough money, weapons, and illicit goods
                       to the cop.
-* ACH[ ] IEVEMENTS
+* ACHIEVEMENTS
   + Three Blind Mice :: Collect, erm, three blind mice.
   + Librarian :: Have a copy of all five books (including the Book of
                  Dark Arts).
@@ -277,3 +277,6 @@
   + Dr. Debug
   + MissingNo
   + Witch and poison apple
+  + Santa Claus
+  + Easter Bunny
+  + Cupid
