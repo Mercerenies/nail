@@ -29,6 +29,7 @@
    + Handcuffs (Endgame: Hard Time)
    + Handgun
    + Sunglasses (Endgame: You Made It)
+   + Badge (Endgame: Good Samaritan)
 ** TYCOON PATH
    + Penny
    + Dollar Bill
@@ -49,6 +50,7 @@
    + (Duel) (Endgame: Master of the Dark Arts)
 ** DEVIL PATH
    + Human Soul
+   + Contract
    + Throne of Satan (Endgame: Satanist)
 ** PLAYING CARDS
    + Queen of Hearts
@@ -109,6 +111,7 @@
    + Pitchfork
    + Torch
    + Hammer
+   + Football
 * ENDINGS
   + Hard Time :: Buy the oregano, then sell it to an undercover cop.
                  He'll come back to arrest you later.
@@ -117,10 +120,12 @@
   + Master of the Dark Arts :: Collect a magic wand, book of dark
        arts, and a cloak. The Dark Sorcerer will come to challenge you
        later.
-  + Tycoon :: Buy Planet Earth from the Investor.
+  + Tycoon :: Buy Planet Earth from the President.
   + Accomplished Nothing :: Trade nothing. Ever. Eventually Dad will
        come back and comment on it.
   + Satanist :: Sell enough souls to the Devil.
+  + Good Samaritan :: Turn in enough money, weapons, and illicit goods
+                      to the cop.
 * ACHIEVEMENTS
   + Three Blind Mice :: Collect, erm, three blind mice.
   + Librarian :: Have a copy of all five books (including the Book of
@@ -136,7 +141,7 @@
   + Hello Operator :: Give the boat to the Devil.
   + Jack of all Trades :: Collect every object at least once (not
        necessarily in one playthrough).
-  + Ol' MacDonald :: Get a pig, a cow, and a horse.
+  + EIEIO :: Get a pig, a cow, and a horse.
   + Old Mother Hubbard :: Give Old Maid a Dog Bone.
   + Pat-a-Cake :: Give the baker a cake and the letter 'B'.
   + Pop! :: Get a monkey and a weasel.
@@ -152,6 +157,106 @@
   + Be our Guest :: Have a grandfather clock, a candle, and a teapot.
   + Pittance for the Poor :: Ask for a penny in exchange for nothing.
 * EVENTS
+  Note: See ~Events.odg~ for the flowchart which organizes these
+  events.
+** GAME INTRO EVENT
+   Dad tries to give you a nail for nothing. This deal cannot be
+   altered or refused.
+** STANDARD EVENT
+   TODO
+** BRIEFCASE EVENT
+   The sunglasses gent offers the player a briefcase, telling him not
+   to give it to anyone and that he'll be back later for it. This can
+   be refused.
+** DAD CHECK EVENT
+   Dad comes to check on you and offer you a random free thing.
+** FAILURE EVENT                                                   :terminal:
+   Dad shows up and asks what you've done. He will not leave
+   empty-handed. If you present him the nail, the game ends.
+** BRIEFCASE RETURN EVENT
+   The sunglasses gent wants his briefcase back. If the player has it,
+   he'll suggest that trade. If the player refuses or doesn't have it,
+   he'll leave but he will be upset.
+** UNDERCOVER COP EVENT
+   The undercover cop wants oregano. If the player sells it to him,
+   then the player will be arrested soon. If not, then this event will
+   blacklist itself until the cop sees the oregano again.
+** OREGANO EVENT
+   Sunglasses gent will come by and try to sell the player oregano.
+   This can be refused.
+** OREGANO BUY EVENT
+   Sunglasses gent wants to buy oregano. This trade can be refused.
+** GROUP A EVENT
+   Group A performs the first of the following events whose
+   precondition is satisfied.
+   + If Briefcase Event is unresolved and it has been at least one
+     Group A event since Briefcase Event, then trigger Briefcase
+     Return Event.
+   + If the player has oregano and the cop has been by (for any
+     reason), then Undercover Cop Event.
+
+   Otherwise, Group A cycles through the following events in a random
+   (determined at game start) order.
+   + If the Briefcase Event is resolved, then sunglasses gent may ask
+     for Briefcase Event again.
+   + If the player has no oregano, then Oregano Event.
+   + If the player has oregano, then Oregano Buy Event.
+   + Dad Check Event, unconditionally.
+** GROUP B EVENT
+   Group B cycles through the following events in a random (determined
+   at game start) order. If an event cannot occur, then the next one
+   in the list occurs instead.
+   + Investor :: If the investor has the player's investment and it
+                 has matured, then Investment Return Event. Otherwise,
+                 if there is no active investment and the player has
+                 money, then Investment Event.
+   + Satan :: If the player has his soul, then Devil Event. If the
+              player has not joined him yet, then Devil Recruitment
+              Event. If the player has joined him and has souls, then
+              Devil Collection Event.
+   + Fairy Godmother :: Triggers Godmother Event unconditionally.
+   + Group A :: This event decays into a Group A Event.
+** GODMOTHER EVENT
+   The Fairy Godmother offers the player one object for free.
+   Alternatively, the player can trade for her wand, if the right
+   price is offered.
+** DEVIL EVENT
+   The Devil appears and offers the player one item of his choice in
+   exchange for his soul.
+** DEVIL RECRUITMENT EVENT
+   The Devil offers a Contract. If the player takes it, he will now
+   collect souls for the Devil.
+** DEVIL COLLECTION EVENT
+   The Devil offers rewards for any souls the player has collected.
+** INVESTMENT RETURN EVENT
+   The investor returns the player's investment and then some. This
+   offer cannot be refused.
+** INVESTMENT EVENT
+   The investor accepts any financial item from the player. The
+   investment will be returned later, with one of the submitted items
+   (but only one) having matured. All others, if there are multiple,
+   will be the same as when they were submitted.
+** PRESIDENT EVENT                                                 :terminal:
+   The President offers you Planet Earth in exchange for a large sum
+   of money. This offer can be refused. If it's accepted, the game
+   ends.
+** BADGE EVENT                                                     :terminal:
+   The cop offers a Badge. This offer can be refused. If it's
+   accepted, the game ends.
+** GODFATHER EVENT                                                 :terminal:
+   The Godfather offers a pair of sunglasses. This offer can be
+   refused. If it's accepted, the game ends.
+** THRONE EVENT                                                    :terminal:
+   The Devil offers his throne. This can be refused. If it's accepted,
+   the game ends.
+** DUEL EVENT                                                      :terminal:
+   The sorcerer challenges you to a duel. This cannot be refused. The
+   game ends.
+** SORCERER EVENT
+   Sorcerer will come by to taunt the player. No trades can be made.
+   Passing is the only option.
+** ARREST EVENT                                                    :terminal:
+   The cop arrests the player. This cannot be refused. The game ends.
 * STRETCH GOALS
   + Genie
   + Dr. Debug
