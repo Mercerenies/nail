@@ -9,4 +9,5 @@ enum ItemId {
   ENGLISH_TEXTBOOK = 6,
   SCIENCE_TEXTBOOK = 7,
   HISTORY_TEXTBOOK = 8,
+  TEAPOT = 9,
 }

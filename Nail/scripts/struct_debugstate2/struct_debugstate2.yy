@@ -6,7 +6,7 @@
     "path": "folders/State Machine/States.yy",
   },
   "resourceVersion": "1.0",
-  "name": "struct_CharacterState",
+  "name": "struct_DebugState2",
   "tags": [],
   "resourceType": "GMScript",
 }

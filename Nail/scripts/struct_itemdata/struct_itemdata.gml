@@ -71,3 +71,10 @@ function HistoryTextbook() : ItemData() constructor {
   static getSprite = function() { return spr_HistoryBook; }
   static getValue = function() { return 1; }
 }
+
+function Teapot() : ItemData() constructor {
+  static getId = function() { return ItemId.TEAPOT; }
+  static getName = function() { return "Teapot"; }
+  static getSprite = function() { return spr_Teapot; }
+  static getValue = function() { return 1; }
+}

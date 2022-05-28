@@ -84,7 +84,7 @@
    + [ ] Spoon
    + [ ] Hot Cross Buns
    + [ ] Broken Egg
-   + [ ] Teapot
+   + [X] Teapot
    + [ ] Spider
    + [ ] Pail of Water
    + [ ] Ladybug

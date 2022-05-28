@@ -18,6 +18,10 @@ professorList = [
   new ScienceTextbook(),
 ]
 
+maidenList = [
+  new Teapot(),
+]
+
 // For efficient lookup.
 _commonIndex = ds_map_create();
 for (var i = 0; i < array_length(commonList); i++) {
