@@ -12,7 +12,7 @@ _data[$ POCKET_MAIDEN] = [];
 _logic[$ POCKET_PROFESSOR] = new BasePocketLogic(ctrl_ItemLists.professorList);
 _logic[$ POCKET_MAIDEN] = new BasePocketLogic(ctrl_ItemLists.maidenList);
 
-_rejection[$ POCKET_PROFESSOR] = new NullRejectionRule();
+_rejection[$ POCKET_PROFESSOR] = new ProfessorRejectionRule();
 _rejection[$ POCKET_MAIDEN] = new MaidenRejectionRule();
 
 // Seed all inventories

@@ -44,7 +44,7 @@ function _Professor_TradeRule() : TradeRule() constructor {
   static badTradeMessage = function() { return "I'm afraid that wouldn't be in my interests."; }
 
   static rejectionRule = function() {
-    return new NullRejectionRule();
+    return new ProfessorRejectionRule();
   }
 
 }

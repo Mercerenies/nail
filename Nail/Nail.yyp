@@ -93,6 +93,7 @@
     {"id":{"name":"struct_Professor","path":"scripts/struct_Professor/struct_Professor.yy",},"order":2,},
     {"id":{"name":"struct_DebugState2","path":"scripts/struct_DebugState2/struct_DebugState2.yy",},"order":3,},
     {"id":{"name":"struct_Customer","path":"scripts/struct_Customer/struct_Customer.yy",},"order":0,},
+    {"id":{"name":"struct_ProfessorRejectionRule","path":"scripts/struct_ProfessorRejectionRule/struct_ProfessorRejectionRule.yy",},"order":5,},
     {"id":{"name":"fnt_Tooltip","path":"fonts/fnt_Tooltip/fnt_Tooltip.yy",},"order":8,},
     {"id":{"name":"spr_NoItem","path":"sprites/spr_NoItem/spr_NoItem.yy",},"order":1,},
     {"id":{"name":"struct_UpdateInvThenNextState","path":"scripts/struct_UpdateInvThenNextState/struct_UpdateInvThenNextState.yy",},"order":6,},
