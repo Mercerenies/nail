@@ -7,7 +7,6 @@
 // character.
 commonList = [
   new Penny(),
-  new Baseball(), // DEBUG CODE
   new DollarBill(),
 ]
 
@@ -16,7 +15,6 @@ professorList = [
   new EnglishTextbook(),
   new HistoryTextbook(),
   new ScienceTextbook(),
-  new Spider(), // DEBUG CODE
 ]
 
 maidenList = [
@@ -37,6 +35,11 @@ oldMaidList = [
   new Plate(),
   new Teapot(),
   new Candle(),
+]
+
+broSisList = [
+  new Spider(),
+  new Baseball(),
 ]
 
 // For efficient lookup.

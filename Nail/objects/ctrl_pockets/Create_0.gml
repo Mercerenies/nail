@@ -11,18 +11,21 @@ _data[$ POCKET_MAIDEN] = [];
 _data[$ POCKET_BAKER] = [];
 _data[$ POCKET_FARMER] = [];
 _data[$ POCKET_OLDMAID] = [];
+_data[$ POCKET_BROSIS] = [];
 
 _logic[$ POCKET_PROFESSOR] = new BasePocketLogic(ctrl_ItemLists.professorList);
 _logic[$ POCKET_MAIDEN] = new BasePocketLogic(ctrl_ItemLists.maidenList);
 _logic[$ POCKET_BAKER] = new BasePocketLogic(ctrl_ItemLists.bakerList);
 _logic[$ POCKET_FARMER] = new BasePocketLogic(ctrl_ItemLists.farmerList);
 _logic[$ POCKET_OLDMAID] = new BasePocketLogic(ctrl_ItemLists.oldMaidList);
+_logic[$ POCKET_BROSIS] = new BasePocketLogic(ctrl_ItemLists.broSisList);
 
 _rejection[$ POCKET_PROFESSOR] = new ProfessorRejectionRule();
 _rejection[$ POCKET_MAIDEN] = new MaidenRejectionRule();
 _rejection[$ POCKET_BAKER] = new BakerRejectionRule();
 _rejection[$ POCKET_FARMER] = new FarmerRejectionRule();
 _rejection[$ POCKET_OLDMAID] = new OldMaidRejectionRule();
+_rejection[$ POCKET_BROSIS] = new BroSisRejectionRule();
 
 // Seed all inventories
 var keys = variable_struct_get_names(_data);

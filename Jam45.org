@@ -15,10 +15,10 @@
    + [ ] Dad
 ** MISCELLANEOUS CHARACTERS
    + [X] The Professor
-   + [ ] Brother & Sister
+   + [X] Brother & Sister
    + [X] Maiden
    + [X] Farmer
-   + [ ] Old Maid
+   + [X] Old Maid
    + [X] Baker
    + [ ] Baker (Muffin Variant)
 * ITEMS
