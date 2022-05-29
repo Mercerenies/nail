@@ -33,7 +33,7 @@ function PentagramDevil(items) : Customer() constructor {
         }
       }
       if (playerHasRing) {
-        endgameEvent(Ending.DARKNESS).trigger(obj_DialogueBox);
+        endgameEvent(Ending.SATAN).trigger(obj_DialogueBox);
       }
     }
 

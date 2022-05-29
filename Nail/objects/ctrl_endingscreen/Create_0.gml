@@ -1,3 +1,3 @@
+alarm[0] = 60;
 
-// DEBUG CODE
-show_debug_message(ctrl_PersistentState.lastEndgame);
+ctrl_PersistentState.markEnding(ctrl_PersistentState.lastEndgame);

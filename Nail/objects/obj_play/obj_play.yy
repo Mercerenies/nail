@@ -1,10 +1,10 @@
 {
   "spriteId": {
-    "name": "spr_EndingScreen",
-    "path": "sprites/spr_EndingScreen/spr_EndingScreen.yy",
+    "name": "spr_Play",
+    "path": "sprites/spr_Play/spr_Play.yy",
   },
   "solid": false,
-  "visible": true,
+  "visible": false,
   "managed": true,
   "spriteMaskId": null,
   "persistent": false,
@@ -22,19 +22,16 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Endgame",
-    "path": "folders/Endgame.yy",
+    "name": "Title Screen",
+    "path": "folders/Title Screen.yy",
   },
   "resourceVersion": "1.0",
-  "name": "ctrl_EndingScreen",
+  "name": "obj_Play",
   "tags": [],
   "resourceType": "GMObject",
 }

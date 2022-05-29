@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="600"
+   height="600"
+   viewBox="0 0 158.75 158.75"
+   version="1.1"
+   id="svg4420"
+   inkscape:version="1.0.2-2 (e86c870879, 2021-01-15)"
+   sodipodi:docname="Nail.svg"
+   inkscape:export-filename="C:\Users\Silvio Mayolo\Documents\jam45\art\Cover.png"
+   inkscape:export-xdpi="97.097099"
+   inkscape:export-ydpi="97.097099">
+  <defs
+     id="defs4414">
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient850"
+       id="linearGradient852"
+       x1="6.6817384"
+       y1="12.227581"
+       x2="12.49485"
+       y2="10.289877"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient850">
+      <stop
+         style="stop-color:#767676;stop-opacity:1;"
+         offset="0"
+         id="stop846" />
+      <stop
+         style="stop-color:#8c8c8c;stop-opacity:1"
+         offset="1"
+         id="stop848" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient850"
+       id="linearGradient5056"
+       gradientUnits="userSpaceOnUse"
+       x1="6.6817384"
+       y1="12.227581"
+       x2="12.49485"
+       y2="10.289877" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient850"
+       id="linearGradient5058"
+       gradientUnits="userSpaceOnUse"
+       x1="6.6817384"
+       y1="12.227581"
+       x2="12.49485"
+       y2="10.289877" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.7"
+     inkscape:cx="196.3859"
+     inkscape:cy="309.85941"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     units="px"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="1592"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata4417">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <text
+       xml:space="preserve"
+       style="font-size:14.0133px;line-height:1.55;font-family:'Reem Kufi';-inkscape-font-specification:'Reem Kufi';fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.681;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       x="10.420125"
+       y="17.190668"
+       id="text4985"><tspan
+         sodipodi:role="line"
+         id="tspan4983"
+         x="10.420125"
+         y="17.190668"
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.681;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">NAIL</tspan><tspan
+         sodipodi:role="line"
+         x="10.420125"
+         y="38.911282"
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.681;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="tspan4987">by Mercerenies</tspan></text>
+    <g
+       id="g844"
+       style="fill:url(#linearGradient852);fill-opacity:1"
+       inkscape:export-xdpi="97.097099"
+       inkscape:export-ydpi="97.097099"
+       transform="translate(48.938102,3.069771)">
+      <path
+         style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:url(#linearGradient5056);fill-opacity:1;stroke:#000000;stroke-width:0.283963;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000;stop-opacity:1"
+         d="m 7.31217,6.7663346 9.40288,9.3357164 -0.134327,2.082066 H 14.901637 L 5.498758,9.5200346 Z"
+         id="path6561"
+         inkscape:export-xdpi="97.097099"
+         inkscape:export-ydpi="97.097099" />
+      <ellipse
+         style="fill:url(#linearGradient5058);fill-opacity:1;stroke:#000000;stroke-width:0.57189;stop-color:#000000"
+         id="path840"
+         cx="7.0853095"
+         cy="8.9247808"
+         rx="5.8530812"
+         ry="5.7128859"
+         transform="matrix(0.97604759,-0.21755714,0,1,0,0)" />
+    </g>
+  </g>
+</svg>
