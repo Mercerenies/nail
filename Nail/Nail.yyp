@@ -48,6 +48,7 @@
     {"id":{"name":"spr_DrawDraggingItem","path":"sprites/spr_DrawDraggingItem/spr_DrawDraggingItem.yy",},"order":7,},
     {"id":{"name":"spr_HistoryBook","path":"sprites/spr_HistoryBook/spr_HistoryBook.yy",},"order":8,},
     {"id":{"name":"ctrl_Decks","path":"objects/ctrl_Decks/ctrl_Decks.yy",},"order":0,},
+    {"id":{"name":"spr_FairyWand","path":"sprites/spr_FairyWand/spr_FairyWand.yy",},"order":21,},
     {"id":{"name":"struct_GentRejectionRule","path":"scripts/struct_GentRejectionRule/struct_GentRejectionRule.yy",},"order":10,},
     {"id":{"name":"fnt_Dialogue","path":"fonts/fnt_Dialogue/fnt_Dialogue.yy",},"order":2,},
     {"id":{"name":"struct_Valuator","path":"scripts/struct_Valuator/struct_Valuator.yy",},"order":1,},

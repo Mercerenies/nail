@@ -21,4 +21,5 @@ enum ItemId {
   HORSESHOE = 18,
   KNIFE = 19,
   RING = 20,
+  FAIRY_WAND = 21,
 }

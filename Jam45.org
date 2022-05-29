@@ -46,7 +46,7 @@
 ** SORCERER PATH
    + [ ] Book of Dark Arts
    + [ ] Magic Wand
-   + [ ] Fairy Wand
+   + [X] Fairy Wand
    + [ ] Evil Cloak
    + [ ] Broomstick
    + [ ] (Duel) (Endgame: Master of the Dark Arts)
@@ -216,7 +216,7 @@
    Group B performs the first of the following events whose
    precondition is satisfied.
    + If the player's inventory is literally empty or consists only of
-     pennies, trigger Godmother Event.
+     value-less objects (like pennies), trigger Godmother Event.
 
    Group B cycles through the following events in a random (determined
    at game start) order. If an event cannot occur, then the next one

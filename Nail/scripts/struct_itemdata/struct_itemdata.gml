@@ -159,3 +159,10 @@ function SkullRing() : ItemData() constructor {
   static getSprite = function() { return spr_Ring; }
   static getValue = function() { return 1; }
 }
+
+function FairyWand() : ItemData() constructor {
+  static getId = function() { return ItemId.FAIRY_WAND; }
+  static getName = function() { return "Fairy Wand"; }
+  static getSprite = function() { return spr_FairyWand; }
+  static getValue = function() { return 2; }
+}
