@@ -200,16 +200,14 @@
    precondition is satisfied.
    + If the player's inventory is literally empty or consists only of
      pennies, trigger Godmother Event.
-   + If Briefcase Event is unresolved and it has been at least one
-     Group A event since Briefcase Event, then trigger Briefcase
-     Return Event.
    + If the player has oregano and the cop has been by (for any
      reason), then Undercover Cop Event.
 
    Otherwise, Group A cycles through the following events in a random
    (determined at game start) order.
    + If the Briefcase Event is resolved, then sunglasses gent may ask
-     for Briefcase Event again.
+     for Briefcase Event again. If it's unresolved, he'll want it
+     back.
    + If the player has no oregano, then Oregano Event. If the player
      has oregano, then Oregano Buy Event.
    + Dad Check Event, unconditionally.
@@ -285,3 +283,4 @@
   + Pirate
   + Diff dialogue if you've already met / haven't yet met that person
   + People comment on things they like
+  + Multi invest

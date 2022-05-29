@@ -1,8 +1,8 @@
 
-function BriefcaseGent() : Customer() constructor {
+function BriefcaseReturnGent() : Customer() constructor {
 
   var common = Util.sample(ctrl_ItemLists.commonList);
-  _items = [new SkullRing(), new Knife(), common, new Briefcase()]
+  _items = [new SkullRing(), new Knife(), common]
   introduceSoul(_items, "Gent's", SOUL_GENT);
 
   static getName = function() { return "Gent"; }
@@ -14,24 +14,14 @@ function BriefcaseGent() : Customer() constructor {
   }
 
   static onIntroduce = function() {
-    obj_DialogueBox.enqueue(new DiaEvent(_BriefcaseGent_suggestTrade));
-    obj_DialogueBox.enqueue(new DiaText("Hey, kid! Take this briefcase! Don't ask any questions! Just do it!", true));
+    obj_DialogueBox.enqueue(new DiaText("Hey, kid, I need my briefcase back now.", true));
   }
 
   static onTradeAttempt = function() {
     var summary = Inventory.getSummary();
 
     var traded = false;
-    // Special case: If it's the briefcase for nothing, take the deal.
-    // Otherwise, default trade rules.
-    if ((array_length(summary.playerTable) == 0) && (array_length(summary.customerTable) == 1) && (summary.customerTable[0].getId() == ItemId.BRIEFCASE)) {
-      traded = true;
-      Inventory.doTrade();
-      obj_DialogueBox.enqueue(new DiaText("Don't tell anyone you got that, kid! Especially not the cops! I'll be back for it later!", false));
-      obj_DialogueBox.enqueue(customerExitEvent());
-    } else {
-      traded = standardTradeAttempt(new _BriefcaseGent_TradeRule());
-    }
+    traded = standardTradeAttempt(new _BriefcaseReturnGent_TradeRule());
 
     if (traded) {
       summary = Inventory.getSummary();
@@ -41,9 +31,11 @@ function BriefcaseGent() : Customer() constructor {
           gentHasBriefcase = true;
         }
       }
-      if (!gentHasBriefcase) {
-        ctrl_GameState.briefcaseState = BriefcaseState.CARRYING;
+      if (gentHasBriefcase) {
+        ctrl_GameState.briefcaseState = BriefcaseState.UNTOUCHED;
+        ctrl_GameState.mobFavor = max(ctrl_GameState.mobFavor + 1, 0);
       } else {
+        ctrl_GameState.briefcaseState = BriefcaseState.REFUSED;
         ctrl_GameState.mobFavor = max(ctrl_GameState.mobFavor - 1, 0);
       }
     }
@@ -52,11 +44,7 @@ function BriefcaseGent() : Customer() constructor {
 
 }
 
-function _BriefcaseGent_suggestTrade() {
-  Inventory.suggestTrade([], [ItemId.BRIEFCASE]);
-}
-
-function _BriefcaseGent_TradeRule() : TradeRule() constructor {
+function _BriefcaseReturnGent_TradeRule() : TradeRule() constructor {
 
   static playerOverflow = function() { return "You're not that strong, kid."; }
 
@@ -70,7 +58,7 @@ function _BriefcaseGent_TradeRule() : TradeRule() constructor {
     if (summary.isEmptyTrade()) {
       return "Bah! You'll regret this, kid!";
     } else {
-      return "Make it quick! I gotta get outta here!";
+      return "Thanks, kid!";
     }
   }
 

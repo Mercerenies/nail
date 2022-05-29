@@ -16,7 +16,19 @@ function GroupAState(followUp) : State() constructor {
         var eventId = ctrl_Decks.groupA.sample();
         switch (eventId) {
         case GroupA.BRIEFCASE:
-          // TODO ////
+          switch (ctrl_GameState.briefcaseState) {
+          case BriefcaseState.UNTOUCHED:
+            _followUp = new BriefcaseState(_followUp);
+            done = true;
+            break;
+          case BriefcaseState.CARRYING:
+            _followUp = new BriefcaseReturnState(_followUp);
+            done = true;
+            break;
+          case BriefcaseState.REFUSED:
+            ctrl_GameState.briefcaseState = BriefcaseState.UNTOUCHED;
+            break;
+          }
           break;
         case GroupA.OREGANO:
           // TODO ////
