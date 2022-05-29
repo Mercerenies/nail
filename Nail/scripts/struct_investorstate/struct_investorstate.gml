@@ -1,13 +1,12 @@
 
-function FairyGodmotherState(followUp) : State() constructor {
+function InvestorState(followUp) : State() constructor {
   _followUp = followUp;
-  _pocketLogic = new BasePocketLogic(ctrl_ItemLists.fairyGodmotherList, 0);
+  _pocketLogic = new BasePocketLogic(ctrl_ItemLists.investorList, 0);
 
   static onEnter = function() {
     var items = [];
     _pocketLogic.updateInv(items, ctrl_Pockets.getTargetCount() - 1);
-    array_insert(items, 0, new FairyWand());
-    Customers.summon(new FairyGodmother(items), _FairyGodmotherState_callback);
+    Customers.summon(new Investor(items), _InvestorState_callback);
   }
 
   static nextNode = function() {
@@ -16,7 +15,7 @@ function FairyGodmotherState(followUp) : State() constructor {
 
 }
 
-function _FairyGodmotherState_callback(summary) {
+function _InvestorState_callback(summary) {
   /*
   var items = summary.customerStash;
   ctrl_Decks.storeItems(items);

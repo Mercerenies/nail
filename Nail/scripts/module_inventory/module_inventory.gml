@@ -160,6 +160,15 @@ Inventory.suggestTrade = function(playerSide, customerSide) {
   }
 }
 
+Inventory.totalPlayerValue = function() {
+  var summary = Inventory.getSummary();
+  var playerValue = 0;
+  for (var i = 0; i < array_length(summary.playerStash); i++) {
+    playerValue += summary.playerStash[i].getValue();
+  }
+  return playerValue;
+}
+
 function _Inventory_IsEmptyAndOnSide(side) constructor {
   _side = side;
 

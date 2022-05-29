@@ -58,6 +58,12 @@ fairyGodmotherList = [
   new Horseshoe(),
 ]
 
+investorList = [
+  new Penny(),
+  new DollarBill(),
+  new Briefcase(),
+]
+
 // For efficient lookup.
 _commonIndex = ds_map_create();
 for (var i = 0; i < array_length(commonList); i++) {

@@ -10,7 +10,10 @@ stdChars = new TrailingRandomDeck([
   new StdCharacterData(BroSis, POCKET_BROSIS),
   new StdCharacterData(Professor, POCKET_PROFESSOR),
   new StdCharacterData(Farmer, POCKET_FARMER),
-])
+]);
+
+groupA = new TrailingRandomDeck([GroupA.BRIEFCASE, GroupA.OREGANO, GroupA.DAD_CHECK]);
+groupB = new TrailingRandomDeck([GroupB.INVESTOR, GroupB.SATAN, GroupB.FAIRY_GODMOTHER, GroupB.GROUP_A]);
 
 popStoredItem = function() {
   if (ds_queue_empty(itemStorage)) {

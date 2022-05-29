@@ -209,8 +209,8 @@
    (determined at game start) order.
    + If the Briefcase Event is resolved, then sunglasses gent may ask
      for Briefcase Event again.
-   + If the player has no oregano, then Oregano Event.
-   + If the player has oregano, then Oregano Buy Event.
+   + If the player has no oregano, then Oregano Event. If the player
+     has oregano, then Oregano Buy Event.
    + Dad Check Event, unconditionally.
 ** GROUP B EVENT
    Group B performs the first of the following events whose
