@@ -167,13 +167,15 @@ function FairyWand() : ItemData() constructor {
   static getValue = function() { return 2; }
 }
 
-function Soul(hostName) : ItemData() constructor {
+function Soul(soulId_, hostName) : ItemData() constructor {
+  _soulId = soulId_;
   _hostName = hostName;
   static getId = function() { return ItemId.SOUL; }
   static getName = function() { return _hostName + " Soul"; }
   static getSprite = function() { return spr_Soul; }
   static getValue = function() { return 2; }
   static getSellValue = function() { return 3; }
+  static getSoulId = function() { return _soulId; }
 }
 
 function Contract() : ItemData() constructor {

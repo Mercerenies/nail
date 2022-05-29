@@ -2,6 +2,7 @@
 function Investor(items) : Customer() constructor {
 
   _items = items
+  introduceSoul(_items, "Investor's", SOUL_INVESTOR);
 
   _tradeRule = new _Investor_TradeRule();
 

@@ -2,6 +2,7 @@
 function Maiden(items) : Customer() constructor {
 
   _items = items
+  introduceSoul(_items, "Maiden's", SOUL_MAIDEN);
 
   _tradeRule = new _Maiden_TradeRule();
 

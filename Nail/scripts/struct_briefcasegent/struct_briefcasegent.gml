@@ -3,6 +3,7 @@ function BriefcaseGent() : Customer() constructor {
 
   var common = Util.sample(ctrl_ItemLists.commonList);
   _items = [new SkullRing(), new Knife(), common, new Briefcase()]
+  introduceSoul(_items, "Gent's", SOUL_GENT);
 
   static getName = function() { return "Gent"; }
 

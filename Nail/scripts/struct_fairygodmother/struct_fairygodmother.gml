@@ -2,6 +2,7 @@
 function FairyGodmother(items) : Customer() constructor {
 
   _items = items
+  introduceSoul(_items, "Fairy Godmother's", SOUL_GODMOTHER);
 
   _tradeRule = new _FairyGodmother_TradeRule();
 

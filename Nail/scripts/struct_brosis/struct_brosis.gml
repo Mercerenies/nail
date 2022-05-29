@@ -2,6 +2,8 @@
 function BroSis(items) : Customer() constructor {
 
   _items = items
+  introduceSoul(_items, "Brother's", SOUL_BRO);
+  introduceSoul(_items, "Sister's", SOUL_SIS);
 
   _tradeRule = new _BroSis_TradeRule();
 

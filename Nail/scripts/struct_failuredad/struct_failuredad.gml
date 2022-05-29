@@ -2,6 +2,7 @@
 function FailureDad() : Customer() constructor {
 
   _items = []
+  introduceSoul(_items, "Dad's", SOUL_DAD);
 
   static getName = function() { return "Dad"; }
 

@@ -2,6 +2,7 @@
 function GameIntroDad() : Customer() constructor {
 
   _items = [new Nail()]
+  introduceSoul(_items, "Dad's", SOUL_DAD);
 
   static getName = function() { return "Dad"; }
 

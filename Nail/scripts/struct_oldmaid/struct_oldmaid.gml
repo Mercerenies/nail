@@ -2,6 +2,7 @@
 function OldMaid(items) : Customer() constructor {
 
   _items = items
+  introduceSoul(_items, "Old Maid's", SOUL_OLDMAID);
 
   _tradeRule = new _OldMaid_TradeRule();
 

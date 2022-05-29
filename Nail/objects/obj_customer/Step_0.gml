@@ -19,6 +19,7 @@ if ((!_entered_completely) && (x > target_x)) {
 if (_exiting) {
   x += 6;
   if (x >= xstart) {
+    checkForMortalSouls();
     _callback.call(_finalSummary);
     instance_destroy();
   }

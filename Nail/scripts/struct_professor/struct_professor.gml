@@ -2,6 +2,7 @@
 function Professor(items) : Customer() constructor {
 
   _items = items
+  introduceSoul(_items, "Professor's", SOUL_PROFESSOR);
 
   _tradeRule = new _Professor_TradeRule();
 

@@ -2,6 +2,7 @@
 function Farmer(items) : Customer() constructor {
 
   _items = items
+  introduceSoul(_items, "Farmer's", SOUL_FARMER);
 
   _tradeRule = new _Farmer_TradeRule();
 

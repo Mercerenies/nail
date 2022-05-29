@@ -25,13 +25,24 @@ function GroupBState(followUp) : State() constructor {
           }
           break;
         case GroupB.SATAN:
-          // TODO ////
           if (ctrl_GameState.playerHasSoul) {
             _followUp = new DevilState(_followUp);
             done = true;
           } else if (!ctrl_GameState.playerWorksForSatan) {
             _followUp = new ContractDevilState(_followUp);
             done = true;
+          } else {
+            var summary = Inventory.getSummary();
+            var countSouls = 0;
+            for (var i = 0; i < array_length(summary.playerStash); i++) {
+              if (summary.playerStash[i].getId() == ItemId.SOUL) {
+                countSouls += 1;
+              }
+            }
+            if (countSouls > 0) {
+              _followUp = new CollectorDevilState(_followUp);
+              done = true;
+            }
           }
           break;
         case GroupB.FAIRY_GODMOTHER:

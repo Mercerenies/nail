@@ -25,7 +25,9 @@ function _Customers_summonStandard_callback(pocketIndex, cb) constructor {
   _pocketIndex = pocketIndex;
   _cb = cb;
   static call = function(summary) {
-    ctrl_Pockets.replaceInv(_pocketIndex, summary.customerStash);
+    // Do not return the soul to the inventory.
+    var items = Util.filter(summary.customerStash, function(item) { return item.getId() != ItemId.SOUL; });
+    ctrl_Pockets.replaceInv(_pocketIndex, items);
     _cb.call(summary);
   }
 }

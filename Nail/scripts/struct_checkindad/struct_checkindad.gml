@@ -2,6 +2,7 @@
 function CheckInDad(items) : Customer() constructor {
 
   _items = items
+  introduceSoul(_items, "Dad's", SOUL_DAD);
 
   _tradeRule = new _CheckInDad_TradeRule();
 

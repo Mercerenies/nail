@@ -4,6 +4,7 @@ function ReturnInvestor(items, investedItem) : Customer() constructor {
   _items = items
   _items[array_length(_items)] = investedItem;
   _investedItem = investedItem;
+  introduceSoul(_items, "Investor's", SOUL_INVESTOR);
 
   _tradeRule = new _ReturnInvestor_TradeRule(investedItem);
 
