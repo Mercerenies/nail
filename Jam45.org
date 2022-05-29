@@ -27,8 +27,8 @@
 ** CRIME PATH
    + [ ] Oregano
    + [ ] Handcuffs (Endgame: Hard Time)
-   + [ ] Knife
-   + [ ] Sunglasses (Endgame: You Made It)
+   + [X] Knife
+   + [ ] Skull Ring (Endgame: You Made It)
    + [ ] Badge (Endgame: Good Samaritan)
 ** TYCOON PATH
    + [X] Penny

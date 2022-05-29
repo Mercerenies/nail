@@ -26,4 +26,14 @@ function FailureDad() : Customer() constructor {
     }
   }
 
+  static getTradeButtonIndex = function() {
+    var summary = Inventory.getSummary();
+
+    if ((array_length(summary.customerTable) == 0) && (array_length(summary.playerTable) >= 1)) {
+      return TradeButtonIndex.SHOW;
+    }
+
+    return -1;
+  }
+
 }

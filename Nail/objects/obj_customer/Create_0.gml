@@ -13,6 +13,10 @@ xstart = x;
 
 _callback = new Function1(function(summary) {});
 
+getCustomerData = function() {
+  return _data;
+}
+
 setCustomerData = function(data) {
   _data = data;
   sprite_index = _data.getSprite();
