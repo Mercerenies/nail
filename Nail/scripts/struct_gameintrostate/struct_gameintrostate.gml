@@ -13,6 +13,6 @@ function GameIntroState() : State() constructor {
 }
 
 function _GameIntroState_callback(summary) {
-  ctrl_Decks.storeItems(summary.customerStash);
+  //ctrl_Decks.storeItems(summary.customerStash); // It's just a penny; let it go
   ctrl_StateMachine.gotoNextState();
 }
