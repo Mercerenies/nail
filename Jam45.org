@@ -282,3 +282,5 @@
   + Cupid
   + Preacher
   + Pirate
+  + Diff dialogue if you've already met / haven't yet met that person
+  + People comment on things they like

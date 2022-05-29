@@ -21,7 +21,8 @@ function Nail() : ItemData() constructor {
   static getId = function() { return ItemId.NAIL; }
   static getName = function() { return "Nail"; }
   static getSprite = function() { return spr_Nail; }
-  static getValue = function() { return 1; }
+  static getValue = function() { return 2; }
+  static getSellValue = function() { return 1; }
 }
 
 function Candle() : ItemData() constructor {
