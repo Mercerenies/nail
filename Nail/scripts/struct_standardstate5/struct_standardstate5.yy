@@ -6,7 +6,7 @@
     "path": "folders/State Machine/States/Standard States.yy",
   },
   "resourceVersion": "1.0",
-  "name": "struct_StandardState3",
+  "name": "struct_StandardState5",
   "tags": [],
   "resourceType": "GMScript",
 }
