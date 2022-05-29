@@ -58,6 +58,22 @@ fairyGodmotherList = [
   new Horseshoe(),
 ]
 
+devilList = [
+  new Candle(),
+  new Penny(),
+  new Baseball(),
+  new MathTextbook(),
+  new EnglishTextbook(),
+  new ScienceTextbook(),
+  new HistoryTextbook(),
+  new Teapot(),
+  new Spider(),
+  new DollarBill(),
+  new Plate(),
+  new Spoon(),
+  new Horseshoe(),
+]
+
 investorList = [
   new Penny(),
   new DollarBill(),

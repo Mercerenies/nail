@@ -33,6 +33,7 @@ performTrade = function() {
 doExit = function() {
   _exiting = true;
   _finalSummary = Inventory.getSummary();
+  _data.onDepart(_finalSummary);
   Inventory.resetInv(Side.CUSTOMER);
   Inventory.setCustomerLabel("");
 }

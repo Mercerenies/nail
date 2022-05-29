@@ -51,8 +51,8 @@
    + [ ] Broomstick
    + [ ] (Duel) (Endgame: Master of the Dark Arts)
 ** DEVIL PATH
-   + [ ] Human Soul
-   + [ ] Contract
+   + [X] Human Soul
+   + [X] Contract
    + [ ] Throne of Satan (Endgame: Satanist)
 ** PLAYING CARDS
    + [ ] Queen of Hearts
@@ -164,6 +164,7 @@
   + Little Boy Blue and the Man on the Moon :: Have a cat, a cradle,
        and a spoon.
   + Radioactive Blood :: Get a spider.
+  + Wash :: Trade an object for the same object.
 * EVENTS
   Note: See ~Events.odg~ for the flowchart which organizes these
   events.

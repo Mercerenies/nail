@@ -22,4 +22,6 @@ enum ItemId {
   KNIFE = 19,
   RING = 20,
   FAIRY_WAND = 21,
+  SOUL = 22,
+  CONTRACT = 23,
 }

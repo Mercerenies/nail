@@ -56,7 +56,7 @@ function _FairyGodmother_TradeRule() : TradeRule() constructor {
   }
 
   static rejectionRule = function() {
-    return new NullRejectionRule();
+    return new FairyGodmotherRejectionRule();
   }
 
   static getLeniency = function() {

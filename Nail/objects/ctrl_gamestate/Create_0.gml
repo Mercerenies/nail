@@ -4,3 +4,6 @@
 briefcaseState = BriefcaseState.UNTOUCHED;
 
 investedValue = -1;
+
+playerHasSoul = true;
+playerWorksForSatan = false;

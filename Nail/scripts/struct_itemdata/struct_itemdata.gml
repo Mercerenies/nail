@@ -166,3 +166,20 @@ function FairyWand() : ItemData() constructor {
   static getSprite = function() { return spr_FairyWand; }
   static getValue = function() { return 2; }
 }
+
+function Soul(hostName) : ItemData() constructor {
+  _hostName = hostName;
+  static getId = function() { return ItemId.SOUL; }
+  static getName = function() { return _hostName + " Soul"; }
+  static getSprite = function() { return spr_Soul; }
+  static getValue = function() { return 2; }
+  static getSellValue = function() { return 3; }
+}
+
+function Contract() : ItemData() constructor {
+  static getId = function() { return ItemId.CONTRACT; }
+  static getName = function() { return "Contract"; }
+  static getSprite = function() { return spr_Contract; }
+  static getValue = function() { return 1; }
+  static getSellValue = function() { return 0; }
+}

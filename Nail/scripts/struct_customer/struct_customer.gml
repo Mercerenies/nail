@@ -17,6 +17,9 @@ function Customer() constructor {
 
   // VIRTUAL BUT HAS DEFAULT //
 
+  // Takes the pre-trade summary object
+  static onDepart = function(summary) {}
+
   // Can be overridden if default is grammatically incorrect.
   static getPossessiveName = function() { return getName() + "'s"; }
 

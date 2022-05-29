@@ -13,5 +13,6 @@ enum TradeButtonIndex {
   SHOW = 8,
   RULE = 9,
   JOIN = 10,
-  CAMBRIA = 11,
+  SIGN = 11,
+  CAMBRIA = 12,
 }

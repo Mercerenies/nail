@@ -26,6 +26,13 @@ function GroupBState(followUp) : State() constructor {
           break;
         case GroupB.SATAN:
           // TODO ////
+          if (ctrl_GameState.playerHasSoul) {
+            _followUp = new DevilState(_followUp);
+            done = true;
+          } else if (!ctrl_GameState.playerWorksForSatan) {
+            _followUp = new ContractDevilState(_followUp);
+            done = true;
+          }
           break;
         case GroupB.FAIRY_GODMOTHER:
           _followUp = new FairyGodmotherState(_followUp);
