@@ -10,6 +10,16 @@ function BasePocketLogic(specificList, commonTarget) : PocketLogic() constructor
     // Shuffle the list.
     Util.shuffle(list);
 
+    // Protect the nail if present.
+    for (var i = 1; i < array_length(list); i++) {
+      if (list[i].getId() == ItemId.NAIL) {
+        var tmp = list[0];
+        list[0] = list[i];
+        list[i] = tmp;
+        break;
+      }
+    }
+
     // Now purge until we get down to the targetCount minus one.
     var shrunkenSize = min(array_length(list), targetCount - 1);
     array_resize(list, shrunkenSize);
