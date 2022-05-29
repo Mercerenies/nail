@@ -46,7 +46,7 @@ function _DebugCustomer_TradeRule() : TradeRule() constructor {
 
   static departureMessage = function(summary) { return "Pleasure doing business."; }
 
-  static badTradeMessage = function() { return "You'll have to do better than that."; }
+  static badTradeMessage = function(summary) { return "You'll have to do better than that."; }
 
   static rejectionRule = function() {
     return new _DebugCustomer_RejectionRule();

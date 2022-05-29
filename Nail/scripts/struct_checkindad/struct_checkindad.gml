@@ -41,7 +41,7 @@ function _CheckInDad_TradeRule() : TradeRule() constructor {
     }
   }
 
-  static badTradeMessage = function() { return "Now, I can't just give you everything for free."; }
+  static badTradeMessage = function(summary) { return "Now, I can't just give you everything for free."; }
 
   static rejectionRule = function() {
     return new DadRejectionRule();

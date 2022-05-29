@@ -41,7 +41,19 @@ function _FairyGodmother_TradeRule() : TradeRule() constructor {
     }
   }
 
-  static badTradeMessage = function() { return "Don't be greedy, now."; }
+  static badTradeMessage = function(summary) {
+    var hasWand = false;
+    for (var i = 0; i < array_length(summary.customerTable); i++) {
+      if (summary.customerTable[i].getId() == ItemId.FAIRY_WAND) {
+        hasWand = true;
+      }
+    }
+    if (hasWand) {
+      return "My wand is very dear to my heart. You'll have to offer a lot more if you want that.";
+    } else {
+      return "Don't be greedy, now.";
+    }
+  }
 
   static rejectionRule = function() {
     return new NullRejectionRule();

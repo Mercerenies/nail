@@ -41,7 +41,7 @@ function _Baker_TradeRule() : TradeRule() constructor {
     }
   }
 
-  static badTradeMessage = function() { return "Unfortunately, sir, my prices are a bit higher than that."; }
+  static badTradeMessage = function(summary) { return "Unfortunately, sir, my prices are a bit higher than that."; }
 
   static rejectionRule = function() {
     return new BakerRejectionRule();

@@ -41,7 +41,7 @@ function _OldMaid_TradeRule() : TradeRule() constructor {
     }
   }
 
-  static badTradeMessage = function() { return "I'm so sorry, but I don't think that's quite worth it."; }
+  static badTradeMessage = function(summary) { return "I'm so sorry, but I don't think that's quite worth it."; }
 
   static rejectionRule = function() {
     return new OldMaidRejectionRule();

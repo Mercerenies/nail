@@ -71,7 +71,7 @@ function _BriefcaseGent_TradeRule() : TradeRule() constructor {
     }
   }
 
-  static badTradeMessage = function() { return "Don't try to shortchange me, kid."; }
+  static badTradeMessage = function(summary) { return "Don't try to shortchange me, kid."; }
 
   static rejectionRule = function() {
     return new GentRejectionRule();

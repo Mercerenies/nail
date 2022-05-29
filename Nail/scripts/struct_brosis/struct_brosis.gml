@@ -41,7 +41,7 @@ function _BroSis_TradeRule() : TradeRule() constructor {
     }
   }
 
-  static badTradeMessage = function() { return "Uhm... is that a good deal?"; }
+  static badTradeMessage = function(summary) { return "Uhm... is that a good deal?"; }
 
   static rejectionRule = function() {
     return new BroSisRejectionRule();

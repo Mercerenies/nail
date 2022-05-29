@@ -14,7 +14,7 @@ function TradeRule() constructor {
 
   static departureMessage = function(summary) {}
 
-  static badTradeMessage = function() {}
+  static badTradeMessage = function(summary) {}
 
   // PROVIDED (OVERRIDABLE) METHODS //
 

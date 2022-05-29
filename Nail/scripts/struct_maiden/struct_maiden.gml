@@ -41,7 +41,7 @@ function _Maiden_TradeRule() : TradeRule() constructor {
     }
   }
 
-  static badTradeMessage = function() { return "Terribly sorry, but can you offer a little more, perhaps?"; }
+  static badTradeMessage = function(summary) { return "Terribly sorry, but can you offer a little more, perhaps?"; }
 
   static rejectionRule = function() {
     return new MaidenRejectionRule();

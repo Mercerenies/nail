@@ -41,7 +41,7 @@ function _Farmer_TradeRule() : TradeRule() constructor {
     }
   }
 
-  static badTradeMessage = function() { return "Can you do a bit better?"; }
+  static badTradeMessage = function(summary) { return "Can you do a bit better?"; }
 
   static rejectionRule = function() {
     return new FarmerRejectionRule();
