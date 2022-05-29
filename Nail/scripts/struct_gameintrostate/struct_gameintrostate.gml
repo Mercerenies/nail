@@ -7,7 +7,7 @@ function GameIntroState() : State() constructor {
   }
 
   static nextNode = function() {
-    return new DeadState(); // DEBUG CODE
+    return new StandardState1();
   }
 
 }

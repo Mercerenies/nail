@@ -21,7 +21,6 @@ popStoredItem = function() {
 }
 
 storeItem = function(item) {
-  // TODO Some items don't go in storage and will silently disappear.
   ds_queue_enqueue(itemStorage, item);
 }
 

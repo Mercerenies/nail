@@ -145,3 +145,17 @@ function Horseshoe() : ItemData() constructor {
   static getSprite = function() { return spr_Horseshoe; }
   static getValue = function() { return 1; }
 }
+
+function Knife() : ItemData() constructor {
+  static getId = function() { return ItemId.KNIFE; }
+  static getName = function() { return "Knife"; }
+  static getSprite = function() { return spr_Knife; }
+  static getValue = function() { return 1; }
+}
+
+function SkullRing() : ItemData() constructor {
+  static getId = function() { return ItemId.RING; }
+  static getName = function() { return "Skull Ring"; }
+  static getSprite = function() { return spr_Ring; }
+  static getValue = function() { return 1; }
+}

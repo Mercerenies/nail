@@ -11,10 +11,6 @@ function revertTrade(){
     }
   }
 
-  // Do the actual inventory updates. (Note: This does not check for
-  // overflow and will silently discard items if there's no space. The
-  // trade should be rejected by the character if overflow would
-  // occur.)
   var i;
   for (i = 0; i < array_length(summary.playerTable); i++) {
     Inventory.addItem(summary.playerTable[i], Side.PLAYER);

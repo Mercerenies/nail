@@ -121,6 +121,45 @@ Inventory.getDraggedItem = function() {
   return noone;
 }
 
+Inventory.toTable = function(side, itemId) {
+
+  var matchingItem = undefined;
+  with (par_ItemSlot) {
+    var contents = getContents();
+    if ((self.side == side) && (isStandard()) && (!is_undefined(contents))) {
+      if (contents.getData().getId() == itemId) {
+        matchingItem = contents;
+        break;
+      }
+    }
+  }
+
+  var matchingSlot = undefined;
+  with (par_ItemSlot) {
+    if ((self.side == side) && (!isStandard()) && (is_undefined(getContents()))) {
+      // Pick the one with the smallest Y coordinate :)
+      if ((is_undefined(matchingSlot)) || (matchingSlot.y > self.y)) {
+        matchingSlot = self;
+      }
+    }
+  }
+
+  if ((!is_undefined(matchingItem)) && (!is_undefined(matchingSlot))) {
+    matchingItem.assignToSlot(matchingSlot);
+  }
+}
+
+// Takes two lists of item IDs
+Inventory.suggestTrade = function(playerSide, customerSide) {
+  revertTrade();
+  for (var i = 0; i < array_length(playerSide); i++) {
+    Inventory.toTable(Side.PLAYER, playerSide[i]);
+  }
+  for (var i = 0; i < array_length(customerSide); i++) {
+    Inventory.toTable(Side.CUSTOMER, customerSide[i]);
+  }
+}
+
 function _Inventory_IsEmptyAndOnSide(side) constructor {
   _side = side;
 
