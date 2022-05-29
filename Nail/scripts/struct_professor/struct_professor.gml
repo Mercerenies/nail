@@ -30,7 +30,7 @@ function _Professor_TradeRule() : TradeRule() constructor {
 
   static customerOverflow = function() { return "Goodness me, I'll never be able to carry that!"; }
 
-  static playerValuation = function() { return new DefaultValuator(); }
+  static playerValuation = function() { return new _Professor_Valuator(); }
 
   static customerValuation = function() { return new DefaultSellValuator(); }
 
@@ -48,4 +48,22 @@ function _Professor_TradeRule() : TradeRule() constructor {
     return new ProfessorRejectionRule();
   }
 
+}
+
+function _Professor_Valuator() : Valuator() constructor {
+  static valueOf = function(itemData) {
+    if (itemData.getId() == ItemId.MATH_TEXTBOOK) {
+      return itemData.getValue() + 1;
+    }
+    if (itemData.getId() == ItemId.SCIENCE_TEXTBOOK) {
+      return itemData.getValue() + 1;
+    }
+    if (itemData.getId() == ItemId.HISTORY_TEXTBOOK) {
+      return itemData.getValue() + 1;
+    }
+    if (itemData.getId() == ItemId.ENGLISH_TEXTBOOK) {
+      return itemData.getValue() + 1;
+    }
+    return itemData.getValue();
+  }
 }

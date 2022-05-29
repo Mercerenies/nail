@@ -2,7 +2,11 @@
 function StandardState10() : StandardState() constructor {
 
   static nextNode = function() {
-    return new StandardState11();
+    if (ctrl_GameState.mobFavor >= 3) {
+      return new PersonState(new StandardState11(), new Godfather());
+    } else {
+      return new StandardState11();
+    }
   }
 
 }

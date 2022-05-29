@@ -3,16 +3,16 @@
 ** PLOT CHARACTERS
    + [ ] The Police Officer
    + [ ] The Police Officer (Undercover)
-   + [ ] Gent in the Sunglasses
+   + [X] Gent in the Sunglasses
    + [ ] The Dark Sorcerer
-   + [ ] Investor
+   + [X] Investor
    + [ ] Devil
-   + [ ] Fairy Godmother
+   + [X] Fairy Godmother
    + [ ] Birthday Kid
 ** ENDGAME CHARACTERS
    + [ ] The Godfather
    + [ ] President
-   + [ ] Dad
+   + [X] Dad
 ** MISCELLANEOUS CHARACTERS
    + [X] The Professor
    + [X] Brother & Sister
@@ -25,7 +25,7 @@
 ** STARTING
    + [X] Nail (Endgame: Accomplished Nothing, kinda)
 ** CRIME PATH
-   + [ ] Oregano
+   + [X] Oregano
    + [ ] Handcuffs (Endgame: Hard Time)
    + [X] Knife
    + [ ] Skull Ring (Endgame: You Made It)

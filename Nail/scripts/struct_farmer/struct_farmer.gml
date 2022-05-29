@@ -30,7 +30,7 @@ function _Farmer_TradeRule() : TradeRule() constructor {
 
   static customerOverflow = function() { return "I don't think I can hold that much..."; }
 
-  static playerValuation = function() { return new DefaultValuator(); }
+  static playerValuation = function() { return new _Farmer_Valuator(); }
 
   static customerValuation = function() { return new DefaultSellValuator(); }
 
@@ -48,4 +48,16 @@ function _Farmer_TradeRule() : TradeRule() constructor {
     return new FarmerRejectionRule();
   }
 
+}
+
+function _Farmer_Valuator() : Valuator() constructor {
+  static valueOf = function(itemData) {
+    if (itemData.getId() == ItemId.HORSESHOE) {
+      return itemData.getValue() + 1;
+    }
+    if (itemData.getId() == ItemId.KNIFE) {
+      return itemData.getValue() + 1;
+    }
+    return itemData.getValue();
+  }
 }

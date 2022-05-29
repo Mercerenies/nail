@@ -30,7 +30,7 @@ function _Baker_TradeRule() : TradeRule() constructor {
 
   static customerOverflow = function() { return "I can't hold that much stuff!"; }
 
-  static playerValuation = function() { return new DefaultValuator(); }
+  static playerValuation = function() { return new _Baker_Valuator(); }
 
   static customerValuation = function() { return new DefaultSellValuator(); }
 
@@ -48,4 +48,10 @@ function _Baker_TradeRule() : TradeRule() constructor {
     return new BakerRejectionRule();
   }
 
+}
+
+function _Baker_Valuator() : Valuator() constructor {
+  static valueOf = function(itemData) {
+    return itemData.getValue();
+  }
 }

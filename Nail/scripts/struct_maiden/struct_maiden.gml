@@ -30,7 +30,7 @@ function _Maiden_TradeRule() : TradeRule() constructor {
 
   static customerOverflow = function() { return "I don't think I can quite carry that much."; }
 
-  static playerValuation = function() { return new DefaultValuator(); }
+  static playerValuation = function() { return new _Maiden_Valuator(); }
 
   static customerValuation = function() { return new DefaultSellValuator(); }
 
@@ -48,4 +48,25 @@ function _Maiden_TradeRule() : TradeRule() constructor {
     return new MaidenRejectionRule();
   }
 
+}
+
+function _Maiden_Valuator() : Valuator() constructor {
+  static valueOf = function(itemData) {
+    if (itemData.getId() == ItemId.CANDLE) {
+      return itemData.getValue() + 1;
+    }
+    if (itemData.getId() == ItemId.TEAPOT) {
+      return itemData.getValue() + 1;
+    }
+    if (itemData.getId() == ItemId.PLATE) {
+      return itemData.getValue() + 1;
+    }
+    if (itemData.getId() == ItemId.SPOON) {
+      return itemData.getValue() + 1;
+    }
+    if (itemData.getId() == ItemId.FAIRY_WAND) {
+      return itemData.getValue() + 1;
+    }
+    return itemData.getValue();
+  }
 }

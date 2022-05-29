@@ -31,7 +31,7 @@ function _BroSis_TradeRule() : TradeRule() constructor {
 
   static customerOverflow = function() { return "It's just the two of us, Mister. We can't carry all that."; }
 
-  static playerValuation = function() { return new DefaultValuator(); }
+  static playerValuation = function() { return new _BroSis_Valuator(); }
 
   static customerValuation = function() { return new DefaultSellValuator(); }
 
@@ -49,4 +49,19 @@ function _BroSis_TradeRule() : TradeRule() constructor {
     return new BroSisRejectionRule();
   }
 
+}
+
+function _BroSis_Valuator() : Valuator() constructor {
+  static valueOf = function(itemData) {
+    if (itemData.getId() == ItemId.HORSESHOE) {
+      return itemData.getValue() + 1;
+    }
+    if (itemData.getId() == ItemId.BASEBALL) {
+      return itemData.getValue() + 1;
+    }
+    if (itemData.getId() == ItemId.SPIDER) {
+      return itemData.getValue() + 1;
+    }
+    return itemData.getValue();
+  }
 }

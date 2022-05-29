@@ -30,7 +30,7 @@ function _OldMaid_TradeRule() : TradeRule() constructor {
 
   static customerOverflow = function() { return "I don't have that much strength, dear."; }
 
-  static playerValuation = function() { return new DefaultValuator(); }
+  static playerValuation = function() { return new _OldMaid_Valuator(); }
 
   static customerValuation = function() { return new DefaultSellValuator(); }
 
@@ -48,4 +48,19 @@ function _OldMaid_TradeRule() : TradeRule() constructor {
     return new OldMaidRejectionRule();
   }
 
+}
+
+function _OldMaid_Valuator() : Valuator() constructor {
+  static valueOf = function(itemData) {
+    if (itemData.getId() == ItemId.TEAPOT) {
+      return itemData.getValue() + 1;
+    }
+    if (itemData.getId() == ItemId.PLATE) {
+      return itemData.getValue() + 1;
+    }
+    if (itemData.getId() == ItemId.SPOON) {
+      return itemData.getValue() + 1;
+    }
+    return itemData.getValue();
+  }
 }
