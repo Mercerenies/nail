@@ -2,7 +2,7 @@
 function StandardState5() : StandardState() constructor {
 
   static nextNode = function() {
-    return new DeadState(); // DEBUG CODE
+    return new DadCheckState(new StandardState6());
   }
 
 }

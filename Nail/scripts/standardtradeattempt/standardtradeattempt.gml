@@ -42,7 +42,7 @@ function standardTradeAttempt(rule) {
   // Check to make sure the deal is in the customer's interests.
   var playerValue = rule.playerValuation().valueOfItems(summary.playerTable);
   var customerValue = rule.customerValuation().valueOfItems(summary.customerTable);
-  if (playerValue < customerValue) {
+  if (playerValue + rule.getLeniency() < customerValue) {
     obj_DialogueBox.enqueue(new DiaText(rule.badTradeMessage(), true));
     return false;
   }

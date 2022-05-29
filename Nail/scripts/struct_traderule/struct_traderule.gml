@@ -28,4 +28,11 @@ function TradeRule() constructor {
     return new NullRejectionRule();
   }
 
+  // This amount is added to the playerValue before the trade value is
+  // calculated. Effectively, this allows a customer to accept a "bad"
+  // deal if they like the player.
+  static getLeniency = function() {
+    return 0;
+  }
+
 }

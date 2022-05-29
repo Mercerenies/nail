@@ -37,6 +37,10 @@ getAllPocketNames = function() {
   return variable_struct_get_names(_data);
 }
 
+getTargetCount = function() {
+  return _targetCount;
+}
+
 getInv = function(index) {
   return _data[$ index];
 }
