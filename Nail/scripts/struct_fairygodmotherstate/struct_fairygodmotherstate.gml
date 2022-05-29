@@ -1,13 +1,13 @@
 
-// Dad checking in
-function DadCheckState(followUp) : State() constructor {
+function FairyGodmotherState(followUp) : State() constructor {
   _followUp = followUp;
-  _pocketLogic = new BasePocketLogic(ctrl_ItemLists.commonList, 1);
+  _pocketLogic = new BasePocketLogic(ctrl_ItemLists.fairyGodmotherList, 0);
 
   static onEnter = function() {
     var items = [];
     _pocketLogic.updateInv(items, ctrl_Pockets.getTargetCount() - 1);
-    Customers.summon(new CheckInDad(items), _DadCheckState_callback);
+    array_insert(items, 0, new FairyWand());
+    Customers.summon(new FairyGodmother(items), _FairyGodmother_callback);
   }
 
   static nextNode = function() {
@@ -16,7 +16,7 @@ function DadCheckState(followUp) : State() constructor {
 
 }
 
-function _DadCheckState_callback(summary) {
+function _FairyGodmother_callback(summary) {
   /*
   var items = summary.customerStash;
   ctrl_Decks.storeItems(items);

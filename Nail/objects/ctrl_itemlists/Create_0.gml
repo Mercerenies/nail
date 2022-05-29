@@ -42,6 +42,22 @@ broSisList = [
   new Baseball(),
 ]
 
+fairyGodmotherList = [
+  new Candle(),
+  new Penny(),
+  new Baseball(),
+  new MathTextbook(),
+  new EnglishTextbook(),
+  new ScienceTextbook(),
+  new HistoryTextbook(),
+  new Teapot(),
+  new Spider(),
+  new DollarBill(),
+  new Plate(),
+  new Spoon(),
+  new Horseshoe(),
+]
+
 // For efficient lookup.
 _commonIndex = ds_map_create();
 for (var i = 0; i < array_length(commonList); i++) {

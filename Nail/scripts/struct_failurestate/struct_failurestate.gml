@@ -14,6 +14,5 @@ function FailureState() : State() constructor {
 }
 
 function _FailureState_callback(summary) {
-  ctrl_Decks.storeItems(summary.customerStash);
   ctrl_StateMachine.gotoNextState();
 }

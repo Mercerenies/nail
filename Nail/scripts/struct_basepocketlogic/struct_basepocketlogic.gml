@@ -1,8 +1,9 @@
 
 // Appropriate default implementation of PocketLogic for most use
 // cases.
-function BasePocketLogic(specificList) : PocketLogic() constructor {
+function BasePocketLogic(specificList, commonTarget) : PocketLogic() constructor {
   _specificList = specificList;
+  _commonTarget = commonTarget;
 
   static updateInv = function(list, targetCount) {
 
@@ -16,7 +17,7 @@ function BasePocketLogic(specificList) : PocketLogic() constructor {
     // Add elements back until we get up to targetCount.
     var commonItems = ctrl_ItemLists.countCommonItems(list);
     for (var i = shrunkenSize; i < targetCount; i++) {
-      if (commonItems < 1) {
+      if (commonItems < _commonTarget) {
         // Take a common item if we don't have one.
         commonItems++;
         list[i] = Util.sample(ctrl_ItemLists.commonList);

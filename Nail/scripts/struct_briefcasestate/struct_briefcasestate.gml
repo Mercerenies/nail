@@ -14,6 +14,7 @@ function BriefcaseState(followUp) : State() constructor {
 }
 
 function _BriefcaseState_callback(summary) {
+  /*
   var items = summary.customerStash;
   // Don't store the knife, ring, or briefcase
   items = Util.filter(items, function(item) {
@@ -24,5 +25,6 @@ function _BriefcaseState_callback(summary) {
     return true;
   });
   ctrl_Decks.storeItems(items);
+  */
   ctrl_StateMachine.gotoNextState();
 }
