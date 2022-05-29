@@ -24,4 +24,5 @@ enum ItemId {
   FAIRY_WAND = 21,
   SOUL = 22,
   CONTRACT = 23,
+  OREGANO = 24,
 }

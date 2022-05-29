@@ -31,7 +31,12 @@ function GroupAState(followUp) : State() constructor {
           }
           break;
         case GroupA.OREGANO:
-          // TODO ////
+          if (_GroupAState_playerHasOregano()) {
+            _followUp = new PersonState(_followUp, new OreganoBuyGent());
+          } else {
+            _followUp = new PersonState(_followUp, new OreganoGent());
+          }
+          done = true;
           break;
         case GroupA.DAD_CHECK:
           _followUp = new DadCheckState(_followUp);
@@ -48,4 +53,14 @@ function GroupAState(followUp) : State() constructor {
     return _followUp;
   }
 
+}
+
+function _GroupAState_playerHasOregano() {
+  var summary = Inventory.getSummary();
+  for (var i = 0; i < array_length(summary.playerStash); i++) {
+    if (summary.playerStash[i].getId() == ItemId.OREGANO) {
+      return true;
+    }
+  }
+  return false;
 }

@@ -185,3 +185,10 @@ function Contract() : ItemData() constructor {
   static getValue = function() { return 1; }
   static getSellValue = function() { return 0; }
 }
+
+function Oregano() : ItemData() constructor {
+  static getId = function() { return ItemId.OREGANO; }
+  static getName = function() { return "Oregano"; }
+  static getSprite = function() { return spr_Oregano; }
+  static getValue = function() { return 2; }
+}
