@@ -17,10 +17,18 @@ function BasePocketLogic(specificList) : PocketLogic() constructor {
     var commonItems = ctrl_ItemLists.countCommonItems(list);
     for (var i = shrunkenSize; i < targetCount; i++) {
       if (commonItems < 1) {
+        // Take a common item if we don't have one.
         commonItems++;
         list[i] = Util.sample(ctrl_ItemLists.commonList);
       } else {
-        list[i] = Util.sample(_specificList);
+        var storedItem = popStoredItemFromDeck();
+        if (!is_undefined(storedItem)) {
+          // Take a stored item if one exists.
+          list[i] = storedItem;
+        } else {
+          // Otherwise, sample from the character's own reserves.
+          list[i] = Util.sample(_specificList);
+        }
       }
     }
 

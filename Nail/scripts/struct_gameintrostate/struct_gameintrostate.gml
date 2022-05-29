@@ -12,7 +12,7 @@ function GameIntroState() : State() constructor {
 
 }
 
-function _GameIntroState_callback() {
-  // TODO Queue of extra items
+function _GameIntroState_callback(summary) {
+  ctrl_Decks.storeItems(summary.customerStash);
   ctrl_StateMachine.gotoNextState();
 }

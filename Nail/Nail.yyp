@@ -33,6 +33,7 @@
     {"id":{"name":"revertTrade","path":"scripts/revertTrade/revertTrade.yy",},"order":15,},
     {"id":{"name":"struct_BasePocketLogic","path":"scripts/struct_BasePocketLogic/struct_BasePocketLogic.yy",},"order":4,},
     {"id":{"name":"standardTradeAttempt","path":"scripts/standardTradeAttempt/standardTradeAttempt.yy",},"order":7,},
+    {"id":{"name":"popStoredItemFromDeck","path":"scripts/popStoredItemFromDeck/popStoredItemFromDeck.yy",},"order":3,},
     {"id":{"name":"spr_TreasureChest","path":"sprites/spr_TreasureChest/spr_TreasureChest.yy",},"order":15,},
     {"id":{"name":"spr_Horseshoe","path":"sprites/spr_Horseshoe/spr_Horseshoe.yy",},"order":18,},
     {"id":{"name":"spr_DrawDraggingItem","path":"sprites/spr_DrawDraggingItem/spr_DrawDraggingItem.yy",},"order":7,},
