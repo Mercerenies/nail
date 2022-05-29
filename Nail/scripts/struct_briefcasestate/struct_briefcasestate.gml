@@ -15,10 +15,10 @@ function BriefcaseState(followUp) : State() constructor {
 
 function _BriefcaseState_callback(summary) {
   var items = summary.customerStash;
-  // Don't store the knife or ring
+  // Don't store the knife, ring, or briefcase
   items = Util.filter(items, function(item) {
     var id_ = item.getId();
-    if ((id_ == ItemId.KNIFE) || (id_ == ItemId.RING)) {
+    if ((id_ == ItemId.KNIFE) || (id_ == ItemId.RING) || (id_ == ItemId.BRIEFCASE)) {
       return false;
     }
     return true;

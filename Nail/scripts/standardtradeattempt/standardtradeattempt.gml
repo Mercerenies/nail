@@ -1,14 +1,15 @@
 
-// Takes a TradeRule as argument.
+// Takes a TradeRule as argument. Returns whether the trade went
+// through or not.
 function standardTradeAttempt(rule) {
   // Check sizes.
   switch (Inventory.sizesMakeSense()) {
   case SizeError.PLAYER_CANNOT_CARRY:
     obj_DialogueBox.enqueue(new DiaText(rule.playerOverflow(), true));
-    return;
+    return false;
   case SizeError.CUSTOMER_CANNOT_CARRY:
     obj_DialogueBox.enqueue(new DiaText(rule.customerOverflow(), true));
-    return;
+    return false;
   case SizeError.NONE:
     // Pass through to rest of function.
     break;
@@ -23,7 +24,18 @@ function standardTradeAttempt(rule) {
     var hateReaction = rejectionRule.getReaction(summary.playerTable[i]);
     if (!is_undefined(hateReaction)) {
       hateReaction.call();
-      return;
+      return false;
+    }
+  }
+
+  // Check to make sure the customer doesn't love anything in the
+  // deal.
+  var keepRule = rule.keepRule();
+  for (var i = 0; i < array_length(summary.customerTable); i++) {
+    var loveReaction = keepRule.getReaction(summary.customerTable[i]);
+    if (!is_undefined(loveReaction)) {
+      loveReaction.call();
+      return false;
     }
   }
 
@@ -32,11 +44,12 @@ function standardTradeAttempt(rule) {
   var customerValue = rule.customerValuation().valueOfItems(summary.customerTable);
   if (playerValue < customerValue) {
     obj_DialogueBox.enqueue(new DiaText(rule.badTradeMessage(), true));
-    return;
+    return false;
   }
 
   Inventory.doTrade();
   obj_DialogueBox.enqueue(new DiaText(rule.departureMessage(summary), false));
   obj_DialogueBox.enqueue(customerExitEvent());
+  return true;
 
 }
