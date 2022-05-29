@@ -6,11 +6,11 @@
    + [X] Gent in the Sunglasses
    + [ ] The Dark Sorcerer
    + [X] Investor
-   + [ ] Devil
+   + [X] Devil
    + [X] Fairy Godmother
    + [ ] Birthday Kid
 ** ENDGAME CHARACTERS
-   + [ ] The Godfather
+   + [X] The Godfather
    + [ ] President
    + [X] Dad
 ** MISCELLANEOUS CHARACTERS
@@ -28,7 +28,7 @@
    + [X] Oregano
    + [ ] Handcuffs (Endgame: Hard Time)
    + [X] Knife
-   + [ ] Skull Ring (Endgame: You Made It)
+   + [X] Skull Ring (Endgame: You Made It)
    + [ ] Badge (Endgame: Good Samaritan)
 ** TYCOON PATH
    + [X] Penny
@@ -116,19 +116,19 @@
    + [ ] Hammer
    + [ ] Football
 * ENDINGS
-  + Hard Time :: Buy the oregano, then sell it to an undercover cop.
-                 He'll come back to arrest you later.
-  + You Made It :: Consistently make trades with Sunglasses Gent, and
-                   eventually the Godfather will show up.
-  + Master of the Dark Arts :: Collect a magic wand, book of dark
+  + [ ] Hard Time :: Buy the oregano, then sell it to an undercover
+                     cop. He'll come back to arrest you later.
+  + [X] You Made It :: Consistently make trades with Sunglasses Gent, and
+       eventually the Godfather will show up.
+  + [ ] Master of the Dark Arts :: Collect a magic wand, book of dark
        arts, and a cloak. The Dark Sorcerer will come to challenge you
        later.
-  + Tycoon :: Buy Planet Earth from the President.
-  + Accomplished Nothing :: Trade nothing. Ever. Eventually Dad will
+  + [ ] Tycoon :: Buy Planet Earth from the President.
+  + [X] Accomplished Nothing :: Trade nothing. Ever. Eventually Dad will
        come back and comment on it.
-  + Satanist :: Sell enough souls to the Devil.
-  + Good Samaritan :: Turn in enough money, weapons, and illicit goods
-                      to the cop.
+  + [X] Satanist :: Sell enough souls to the Devil.
+  + [ ] Good Samaritan :: Turn in enough money, weapons, and illicit goods
+       to the cop.
 * ACHIEVEMENTS
   + Three Blind Mice :: Collect, erm, three blind mice.
   + Librarian :: Have a copy of all five books (including the Book of

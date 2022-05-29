@@ -5,7 +5,7 @@ briefcaseState = BriefcaseState.UNTOUCHED;
 
 investedValue = -1;
 
-mobFavor = 3; // DEBUG CODE
+mobFavor = 0;
 
 playerHasSoul = false; // DEBUG CODE
 playerWorksForSatan = false;

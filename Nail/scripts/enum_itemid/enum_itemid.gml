@@ -25,4 +25,6 @@ enum ItemId {
   SOUL = 22,
   CONTRACT = 23,
   OREGANO = 24,
+  NECKLACE = 25,
+  EARTH = 26,
 }

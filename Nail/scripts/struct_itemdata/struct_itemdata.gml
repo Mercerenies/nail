@@ -192,3 +192,17 @@ function Oregano() : ItemData() constructor {
   static getSprite = function() { return spr_Oregano; }
   static getValue = function() { return 2; }
 }
+
+function PentagramNecklace() : ItemData() constructor {
+  static getId = function() { return ItemId.NECKLACE; }
+  static getName = function() { return "Pentagram Necklace"; }
+  static getSprite = function() { return spr_Necklace; }
+  static getValue = function() { return 2; }
+}
+
+function Earth() : ItemData() constructor {
+  static getId = function() { return ItemId.EARTH; }
+  static getName = function() { return "Planet Earth"; }
+  static getSprite = function() { return spr_Earth; }
+  static getValue = function() { return 3; }
+}
