@@ -10,7 +10,7 @@ function GroupAState(followUp) : State() constructor {
       _followUp = new FairyGodmotherState(_followUp);
     } else {
 
-      // TODO Cop stuff
+      // not implemented: Cop stuff
 
       // Otherwise, cycle till we find a state that makes sense.
       var done = false;

@@ -44,8 +44,6 @@ function ContractDevil(items) : Customer() constructor {
 
     Inventory.doTrade();
     ctrl_GameState.playerWorksForSatan = true;
-    // TODO Make sure the contract counts as traded for achievement
-    // purposes.
 
     // Remove the contract.
     with (par_ItemSlot) {

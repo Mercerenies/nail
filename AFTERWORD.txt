@@ -1,0 +1,64 @@
+
+NAIL
+by Mercerenies
+--------------
+
+I massively overscoped, as always. There are four endings in this
+version of the game. The original plan had seven endings, 29
+achievements, and eight additional characters who had to be scrapped.
+
+The idea was that you encounter all these characters from various
+classic storybooks and try to sell them things they want. So you might
+buy a muffin from the Maiden and sell it to the Baker for twice the
+cost (since the Baker likes muffins), as a random example.
+
+For what it's worth, the endings currently in the game are as follows.
+Spoilers, obviously, so don't read any more if you were planning on
+100%'ing the existing game without hints.
+
+ * ENDING 1 / 4 (This Thing of Ours) - Whenever Gent asks you to hold
+   onto his briefcase, do it and give it back when asked. If you do
+   this consistently (three times in a row), then Godfather will show
+   up and welcome you into his organization.
+
+ * ENDING 2 / 4 (Richest Man on Earth) - Investor will upgrade the
+   currency you give him, so if you give him a penny he'll bring back
+   a dollar. If you give him a dollar, he'll bring back a briefcase of
+   money. Briefcase converts into gold bar, then into a stack of gold,
+   then into a treasure chest. Once you have the treasure chest, the
+   President will show up and offer you Planet Earth.
+
+ * ENDING 3 / 4 (Luigi Wins) - The silly one. Don't trade anything.
+   Don't accept the briefcase when Gent asks. Never interact with
+   anyone. Eventually Dad will show up and shut down the shop.
+
+ * ENDING 4 / 4 (A Friend Down Below) - Sell your soul to Devil, and
+   then sign his contract. Buy souls from people and sell them back to
+   the Devil. After you sell the Devil your fifth soul (including your
+   own), he'll offer you the Pentagram Necklace and a place by his
+   side as ruler of the underworld.
+
+And the endings that were cut, for those curious.
+
+ * ENDING 5 / 4 (Do Not Pass Go) - Buy the oregano from Gent. Then Cop
+   will show up and ask if you have anything illegal on you. Say no.
+   Later, Cop will show up in a paper thing disguise and ask to buy
+   the oregano. Sell it to him, and he'll arrest you.
+
+ + ENDING 6 / 4 (Master of the Dark Arts) - At some point in the game,
+   a random character will find the Book of Dark Magic. Buy it from
+   them. Then acquire a magic wand and another magical object (either
+   a broom or a cloak). Then Sorcerer will find you and challenge you
+   to a duel.
+
+ + ENDING 7 / 4 (New Sheriff in Town) - Buy the oregano from Gent.
+   Then cooperate with Cop and give him the oregano when asked. Keep
+   doing this and providing Cop with anything Gent gives you. Once you
+   do it enough times, Cop will offer you a police badge and a place
+   on the force.
+
+And secret characters who were cut, in no particular order: Cop,
+Sorcerer, Birthday Kid, Muffin Man, Santa Claus, Easter Bunny, Genie,
+Pirate.
+
+So much content, so little time. Hope you had a bit of fun. Until next time, cheers! :)

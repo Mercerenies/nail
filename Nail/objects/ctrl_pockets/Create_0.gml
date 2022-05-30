@@ -1,6 +1,5 @@
 
-// TODO Will increase over the course of the game (max = 8)
-_targetCount = 3;
+_targetCount = 6;
 
 _data = {};
 _logic = {};

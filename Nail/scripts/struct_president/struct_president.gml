@@ -1,7 +1,7 @@
 
 function President() : Customer() constructor {
 
-  // TODO Football
+  // not implemented: Football
   _items = [new Briefcase(), new GoldBar(), new Earth()]
   introduceSoul(_items, "President's", SOUL_PRESIDENT);
 

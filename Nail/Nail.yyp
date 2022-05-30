@@ -151,6 +151,7 @@
     {"id":{"name":"obj_Customer","path":"objects/obj_Customer/obj_Customer.yy",},"order":3,},
     {"id":{"name":"enum_ItemId","path":"scripts/enum_ItemId/enum_ItemId.yy",},"order":10,},
     {"id":{"name":"struct_Dialogue","path":"scripts/struct_Dialogue/struct_Dialogue.yy",},"order":3,},
+    {"id":{"name":"spr_BookOfDarkMagic","path":"sprites/spr_BookOfDarkMagic/spr_BookOfDarkMagic.yy",},"order":27,},
     {"id":{"name":"obj_Player","path":"objects/obj_Player/obj_Player.yy",},"order":0,},
     {"id":{"name":"struct_Godfather","path":"scripts/struct_Godfather/struct_Godfather.yy",},"order":21,},
     {"id":{"name":"enum_Ending","path":"scripts/enum_Ending/enum_Ending.yy",},"order":1,},

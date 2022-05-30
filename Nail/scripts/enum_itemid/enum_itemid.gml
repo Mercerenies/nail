@@ -27,4 +27,5 @@ enum ItemId {
   OREGANO = 24,
   NECKLACE = 25,
   EARTH = 26,
+  DARK_BOOK = 27,
 }

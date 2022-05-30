@@ -206,3 +206,10 @@ function Earth() : ItemData() constructor {
   static getSprite = function() { return spr_Earth; }
   static getValue = function() { return 3; }
 }
+
+function DarkBook() : ItemData() constructor {
+  static getId = function() { return ItemId.DARK_BOOK; }
+  static getName = function() { return "Book of Dark Magic"; }
+  static getSprite = function() { return spr_BookOfDarkMagic; }
+  static getValue = function() { return 2; }
+}

@@ -7,7 +7,7 @@ investedValue = -1;
 
 mobFavor = 0;
 
-playerHasSoul = false; // DEBUG CODE
+playerHasSoul = true;
 playerWorksForSatan = false;
 
 boughtSouls = {};
